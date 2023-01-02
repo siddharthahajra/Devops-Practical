@@ -1,0 +1,47 @@
+
+############ ORACLE DECONFIG TOOL START ############
+
+oracle.install.library.crs.CRSInfo.isCRSConfigured() returns value false
+
+######################### DECONFIG CHECK OPERATION START #########################
+## [START] Install check configuration ##
+Gathering system details...
+Using default path : /usr/sbin/arfor ar command.
+
+Executing [C:\Users\Siddh\Downloads\WINDOWS.X64_193000_db_home\bin\orabasehome.exe]
+Starting Output Reader Threads for process C:\Users\Siddh\Downloads\WINDOWS.X64_193000_db_home\bin\orabasehome.exe
+Parsing C:\Users\Siddh\Downloads\WINDOWS.X64_193000_db_home
+The process C:\Users\Siddh\Downloads\WINDOWS.X64_193000_db_home\bin\orabasehome.exe exited with code 0
+Waiting for output processor threads to exit.
+Output processor threads exited.
+
+Checking for existence of the Oracle home location C:\Users\Siddh\Downloads\WINDOWS.X64_193000_db_home
+Oracle Home type selected for deinstall is: Oracle Single Instance Database
+Oracle Base selected for deinstall is: C:\OracleDBA
+Checking for existence of central inventory location C:\Program Files\Oracle\Inventory
+
+## [END] Install check configuration ##
+
+## [START] Checking Windows and .NET products configuration ##
+
+
+The following Windows and .NET products will be deconfigured from the Oracle home : oledbolap,ode.net,ntoledb,oramts,asp.net,odp.net
+
+## [END] Checking Windows and .NET products configuration ##
+
+
+Network Configuration check config START
+
+Network de-configuration trace file location: C:\Users\Siddh\logs\netdc_check2022-03-24_01-34-02PM.log
+
+Specify all Single Instance listeners that are to be de-configured. Enter .(dot) to deselect all. [LISTENER]:
+At least one listener from the discovered listener list [LISTENER] is missing in the specified listener list []. The Oracle home will be cleaned up, so all the listeners will not be available after deinstall. If you want to remove a specific listener, please use Oracle Net Configuration Assistant instead. Do you want to continue? (y|n) [n]: 
+Specify all Single Instance listeners that are to be de-configured. Enter .(dot) to deselect all. [LISTENER]:
+Network Configuration check config END
+
+Database Check Configuration START
+
+Database de-configuration trace file location: C:\Users\Siddh\logs\databasedc_check2022-03-24_01-34-02PM.log
+
+Use comma as separator when specifying list of values as input
+

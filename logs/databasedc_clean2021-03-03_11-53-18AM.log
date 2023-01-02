@@ -1,0 +1,111 @@
+[main] [ 2021-03-03 11:53:18.865 IST ] [CleanConfig.cleanConfig:198]  DC home value C:\Users\Siddh\AppData\Local\Temp\deinstall2021-03-03_11-53-11AM
+[main] [ 2021-03-03 11:53:18.866 IST ] [DeconfigUtil.printAllEnvs:713]  ORACLE_HOME=C:\app\Siddh\product\18.0.0\dbhomeXE
+[main] [ 2021-03-03 11:53:18.866 IST ] [DeconfigUtil.printAllEnvs:714]  ORACLE_BASE=null
+[main] [ 2021-03-03 11:53:18.866 IST ] [DeconfigUtil.printAllEnvs:715]  ORACLE_SID=null
+[main] [ 2021-03-03 11:53:18.866 IST ] [DeconfigUtil.printAllEnvs:716]  ORA_CRS_HOME=null
+[main] [ 2021-03-03 11:53:18.866 IST ] [DeconfigUtil.printAllEnvs:717]  PATH=C:\Users\Siddh\AppData\Local\Temp\deinstall2021-03-03_11-53-11AM\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem
+[main] [ 2021-03-03 11:53:18.866 IST ] [CleanConfig.cleanConfig:203]  Property value oracle.installer.library_loc C:\Users\Siddh\AppData\Local\Temp\deinstall2021-03-03_11-53-11AM\oui\lib\win64
+[main] [ 2021-03-03 11:53:18.866 IST ] [CleanConfig.cleanConfig:205]  Property value oracle.installer.oui_loc C:\Users\Siddh\AppData\Local\Temp\deinstall2021-03-03_11-53-11AM\oui
+[main] [ 2021-03-03 11:53:18.866 IST ] [CleanConfig.cleanConfig:208]  home type SIDB
+[main] [ 2021-03-03 11:53:18.866 IST ] [CleanConfig.cleanConfig:281]  DB Creation cleanup XE
+[main] [ 2021-03-03 11:56:13.777 IST ] [DeleteDB.clean:182]  Delete command exit code 0
+[main] [ 2021-03-03 11:56:13.777 IST ] [DeconfigUtil.getSQLInterface:457]  OH in database : C:\app\Siddh\product\18.0.0\dbhomeXE
+[main] [ 2021-03-03 11:56:13.778 IST ] [OsUtilsBase.isServiceStarted:865]  Exception while querying service ServiceDoesNotExist
+[main] [ 2021-03-03 11:56:13.778 IST ] [DeconfigUtil.getSQLInterface:464]  Sid service started false
+[main] [ 2021-03-03 11:56:13.780 IST ] [OsUtilsWindows.startSidService:398]  Starting Service:=OracleServiceXE
+[main] [ 2021-03-03 11:56:13.780 IST ] [OsUtilsBase.isServiceStarted:865]  Exception while querying service ServiceDoesNotExist
+[main] [ 2021-03-03 11:56:13.780 IST ] [OsUtilsBase.startService:749]  isRunning false
+[main] [ 2021-03-03 11:56:13.780 IST ] [OsUtilsBase.startService:752]  Service is not running, Starting
+[main] [ 2021-03-03 11:56:13.781 IST ] [OsUtilsBase.startService:764]  Exception while starting service ServiceDoesNotExist
+[main] [ 2021-03-03 11:56:13.781 IST ] [DeconfigUtil.getSQLInterface:468]  Sid service started false
+[main] [ 2021-03-03 11:56:13.781 IST ] [DeconfigUtil.getSQLInterface:472]  sqlplus created with home:=C:\app\Siddh\product\18.0.0\dbhomeXE and sid:=XE
+[main] [ 2021-03-03 11:56:13.781 IST ] [OracleHome.getVersion:1060]  OracleHome.getVersion called.  Current Version: null
+[main] [ 2021-03-03 11:56:13.782 IST ] [OracleHome.getVersion:1128]  Current Version From Inventory: null
+[main] [ 2021-03-03 11:56:13.782 IST ] [OracleHome.getVersion:1135]  using sqlplus: C:\app\Siddh\product\18.0.0\dbhomeXE\bin\sqlplus.exe
+[main] [ 2021-03-03 11:56:13.823 IST ] [OracleHome.getVersion:1176]  C:\app\Siddh\product\18.0.0\dbhomeXE\bin\sqlplus.exe Banner: 
+
+SQL*Plus: Release 18.0.0.0.0 - Production
+Version 18.4.0.0.0
+
+[main] [ 2021-03-03 11:56:13.823 IST ] [OracleHome.getVersion:1194]  Current version from sqlplus: 18.0.0.0.0
+[main] [ 2021-03-03 11:56:13.823 IST ] [OracleHome.getVersion:1060]  OracleHome.getVersion called.  Current Version: 18.0.0.0.0
+[main] [ 2021-03-03 11:56:13.823 IST ] [OracleHome.getVersion:1128]  Current Version From Inventory: 18.0.0.0.0
+[main] [ 2021-03-03 11:56:13.824 IST ] [OracleHome.getVersion:1060]  OracleHome.getVersion called.  Current Version: 18.0.0.0.0
+[main] [ 2021-03-03 11:56:13.824 IST ] [OracleHome.getVersion:1128]  Current Version From Inventory: 18.0.0.0.0
+[main] [ 2021-03-03 11:56:13.824 IST ] [SQLPlusEngine.getCmmdParams:226]  m_home 18.0.0.0.0
+[main] [ 2021-03-03 11:56:13.824 IST ] [SQLPlusEngine.getCmmdParams:227]  version > 112 true
+[main] [ 2021-03-03 11:56:13.824 IST ] [OsUtilsBase.getBaseFromOrabase:691]  oraBaseUtility C:\app\Siddh\product\18.0.0\dbhomeXE\bin\orabase.exe
+[main] [ 2021-03-03 11:56:13.824 IST ] [OsUtilsBase.getBaseFromOrabase:700]  cmds: C:\app\Siddh\product\18.0.0\dbhomeXE\bin\orabase.exe
+[main] [ 2021-03-03 11:56:13.824 IST ] [OsUtilsBase.getBaseFromOrabase:704]  envs:  ORACLE_HOME=C:\app\Siddh\product\18.0.0\dbhomeXE
+[main] [ 2021-03-03 11:56:13.849 IST ] [OsUtilsBase.getBaseFromOrabase:714]  baseLocation from orabase 
+C:\app\Siddh\product\18.0.0
+[main] [ 2021-03-03 11:56:13.849 IST ] [OsUtilsBase.getBaseFromOrabase:739]   orabaseLocation= C:\app\Siddh\product\18.0.0
+[main] [ 2021-03-03 11:56:13.850 IST ] [SQLEngine.getEnvParams:616]  Default NLS_LANG: AMERICAN_AMERICA.AL32UTF8
+[main] [ 2021-03-03 11:56:13.850 IST ] [SQLEngine.getEnvParams:626]  NLS_LANG: AMERICAN_AMERICA.AL32UTF8
+[main] [ 2021-03-03 11:56:13.850 IST ] [SQLEngine.initialize:373]  Execing SQLPLUS/SVRMGR process...
+[main] [ 2021-03-03 11:56:13.852 IST ] [SQLEngine.initialize:410]  m_bReaderStarted: false
+[main] [ 2021-03-03 11:56:13.852 IST ] [SQLEngine.initialize:414]  Starting Reader Thread... 
+[main] [ 2021-03-03 11:56:13.852 IST ] [SQLEngine.initialize:462]  Waiting for m_bReaderStarted to be true 
+[main] [ 2021-03-03 11:56:13.883 IST ] [DeconfigUtil.getSqlEngine:169]  connecting as SYSDBA
+[main] [ 2021-03-03 11:56:14.260 IST ] [SQLEngine.done:2352]  Done called
+[main] [ 2021-03-03 11:56:14.285 IST ] [DeconfigUtil.getSqlEngine:175]  error while connecting ORA-12560: TNS:protocol adapter error
+
+[main] [ 2021-03-03 11:56:14.285 IST ] [CleanConfig.cleanCreateDB:492]  Unable to Stop the Database instance
+[main] [ 2021-03-03 11:56:14.285 IST ] [CleanConfig.cleanCreateDB:495]  Stopped Instances XE
+[main] [ 2021-03-03 11:56:14.285 IST ] [RemoveDBFFile.clean:80]  SI/SIHA: Removing Datafile(XE)....
+[main] [ 2021-03-03 11:56:14.286 IST ] [CleanConfig.cleanCreateDB:500]  db type SI_DB
+[main] [ 2021-03-03 11:56:14.286 IST ] [RemoveConfigFiles.clean:228]  Deleting C:\app\Siddh\product\18.0.0\dbhomeXE\database\dr1XE.dat
+[main] [ 2021-03-03 11:56:14.286 IST ] [OsUtilsBase.deleteFile:1852]  OsUtilsBase.deleteFile: C:\app\Siddh\product\18.0.0\dbhomeXE\database\dr1XE.dat
+[main] [ 2021-03-03 11:56:14.286 IST ] [RemoveConfigFiles.clean:230]  Delete Result false
+[main] [ 2021-03-03 11:56:14.286 IST ] [RemoveConfigFiles.clean:228]  Deleting C:\app\Siddh\product\18.0.0\dbhomeXE\database\dr2XE.dat
+[main] [ 2021-03-03 11:56:14.286 IST ] [OsUtilsBase.deleteFile:1852]  OsUtilsBase.deleteFile: C:\app\Siddh\product\18.0.0\dbhomeXE\database\dr2XE.dat
+[main] [ 2021-03-03 11:56:14.286 IST ] [RemoveConfigFiles.clean:230]  Delete Result false
+[main] [ 2021-03-03 11:56:14.286 IST ] [RemoveConfigFiles.clean:228]  Deleting C:\app\Siddh\product\18.0.0\dbhomeXE\database\orapwXE
+[main] [ 2021-03-03 11:56:14.286 IST ] [OsUtilsBase.deleteFile:1852]  OsUtilsBase.deleteFile: C:\app\Siddh\product\18.0.0\dbhomeXE\database\orapwXE
+[main] [ 2021-03-03 11:56:14.286 IST ] [RemoveConfigFiles.clean:230]  Delete Result false
+[main] [ 2021-03-03 11:56:14.287 IST ] [RemoveConfigFiles.clean:228]  Deleting C:\app\Siddh\product\18.0.0\dbhomeXE\database\hc_XE.dat
+[main] [ 2021-03-03 11:56:14.287 IST ] [OsUtilsBase.deleteFile:1852]  OsUtilsBase.deleteFile: C:\app\Siddh\product\18.0.0\dbhomeXE\database\hc_XE.dat
+[main] [ 2021-03-03 11:56:14.287 IST ] [RemoveConfigFiles.clean:230]  Delete Result true
+[main] [ 2021-03-03 11:56:14.287 IST ] [RemoveConfigFiles.clean:228]  Deleting C:\app\Siddh\product\18.0.0\dbhomeXE\database\ab_XE.dat
+[main] [ 2021-03-03 11:56:14.287 IST ] [OsUtilsBase.deleteFile:1852]  OsUtilsBase.deleteFile: C:\app\Siddh\product\18.0.0\dbhomeXE\database\ab_XE.dat
+[main] [ 2021-03-03 11:56:14.287 IST ] [RemoveConfigFiles.clean:230]  Delete Result false
+[main] [ 2021-03-03 11:56:14.287 IST ] [RemoveConfigFiles.clean:228]  Deleting C:\app\Siddh\product\18.0.0\dbhomeXE\database\initXE.ora
+[main] [ 2021-03-03 11:56:14.287 IST ] [OsUtilsBase.deleteFile:1852]  OsUtilsBase.deleteFile: C:\app\Siddh\product\18.0.0\dbhomeXE\database\initXE.ora
+[main] [ 2021-03-03 11:56:14.287 IST ] [RemoveConfigFiles.clean:230]  Delete Result false
+[main] [ 2021-03-03 11:56:14.288 IST ] [CleanConfig.cleanCreateDB:521]  Deleted Config Files XE
+[main] [ 2021-03-03 11:56:14.288 IST ] [OsUtilsBase.deleteFile:1852]  OsUtilsBase.deleteFile: C:\APP\SIDDH\PRODUCT\18.0.0\DBHOMEXE\DATABASE\SPFILEXE.ORA
+[main] [ 2021-03-03 11:56:14.288 IST ] [CleanConfig.cleanCreateDB:524]  Deleted SP Files XE
+[main] [ 2021-03-03 11:56:14.288 IST ] [RemoveConfigDirs.clean:64]  nodeList : LAPTOP-CFOKPVP4
+[main] [ 2021-03-03 11:56:14.288 IST ] [RemoveConfigDirs.clean:69]  Number of nodes 1
+[main] [ 2021-03-03 11:56:14.288 IST ] [RemoveConfigDirs.clean:85]  deleting Diag dest dir for XE:C:\APP\SIDDH\PRODUCT\18.0.0\diag\rdbms\xe
+[main] [ 2021-03-03 11:56:14.288 IST ] [RemoveConfigDirs.cleanDirectories:255]  C:\APP\SIDDH\PRODUCT\18.0.0\diag\rdbms\xe Directory ends with xe
+[main] [ 2021-03-03 11:56:14.288 IST ] [RemoveConfigDirs.cleanDirectories:271]  Directory C:\APP\SIDDH\PRODUCT\18.0.0\diag\rdbms\xe
+[main] [ 2021-03-03 11:56:14.288 IST ] [RemoveConfigDirs.cleanDirectories:246]  C:\app\Siddh\product\18.0.0\cfgtoollogs\dbca\XE Directory ends with XE
+[main] [ 2021-03-03 11:56:14.288 IST ] [RemoveConfigDirs.cleanDirectories:271]  Directory C:\app\Siddh\product\18.0.0\cfgtoollogs\dbca\XE
+[main] [ 2021-03-03 11:56:14.300 IST ] [RemoveConfigDirs.cleanDirectories:246]  C:\app\Siddh\product\18.0.0\cfgtoollogs\emca\XE Directory ends with XE
+[main] [ 2021-03-03 11:56:14.300 IST ] [RemoveConfigDirs.cleanDirectories:271]  Directory C:\app\Siddh\product\18.0.0\cfgtoollogs\emca\XE
+[main] [ 2021-03-03 11:56:14.300 IST ] [RemoveConfigDirs.cleanDirectories:246]  C:\app\Siddh\product\18.0.0\admin\XE Directory ends with XE
+[main] [ 2021-03-03 11:56:14.300 IST ] [RemoveConfigDirs.cleanDirectories:271]  Directory C:\app\Siddh\product\18.0.0\admin\XE
+[main] [ 2021-03-03 11:56:14.300 IST ] [RemoveConfigDirs.cleanUnifiedAudit:167]  Unified Audit Directory C:\app\Siddh\product\18.0.0\audit
+[main] [ 2021-03-03 11:56:14.300 IST ] [RemoveConfigDirs.cleanDirectories:271]  Directory C:\app\Siddh\product\18.0.0\audit
+[main] [ 2021-03-03 11:56:14.300 IST ] [CleanConfig.cleanCreateDB:527]  Deleted Config Directories XE
+[main] [ 2021-03-03 11:56:14.301 IST ] [RemoveOratabEntry.clean:67]  Removing oratab entry....
+[main] [ 2021-03-03 11:56:14.301 IST ] [RemoveOratabEntry.clean:91]  SI/SIHA: Removing oratab entry(XE) ....
+[main] [ 2021-03-03 11:56:14.301 IST ] [RemoveOratabEntry.clean:95]  calling oui remove service
+[main] [ 2021-03-03 11:56:14.301 IST ] [OsUtilsBase.deleteWindowsServices:554]  Service to be deleted OracleServiceXE
+[main] [ 2021-03-03 11:56:14.301 IST ] [OsUtilsBase.deleteWindowsServices:561]  ServiceDoesNotExist
+[main] [ 2021-03-03 11:56:14.301 IST ] [OsUtilsBase.deleteWindowsServices:578]  Removing service OracleServiceXE
+[main] [ 2021-03-03 11:56:14.301 IST ] [OsUtilsBase.deleteWindowsServices:586]  ServiceDoesNotExist
+[main] [ 2021-03-03 11:56:14.301 IST ] [OsUtilsBase.deleteWindowsServices:554]  Service to be deleted OracleJobSchedulerXE
+[main] [ 2021-03-03 11:56:14.302 IST ] [OsUtilsBase.deleteWindowsServices:561]  ServiceDoesNotExist
+[main] [ 2021-03-03 11:56:14.302 IST ] [OsUtilsBase.deleteWindowsServices:578]  Removing service OracleJobSchedulerXE
+[main] [ 2021-03-03 11:56:14.302 IST ] [OsUtilsBase.deleteWindowsServices:586]  ServiceDoesNotExist
+[main] [ 2021-03-03 11:56:14.302 IST ] [OsUtilsBase.deleteWindowsServices:554]  Service to be deleted OracleVssWriterXE
+[main] [ 2021-03-03 11:56:14.302 IST ] [OsUtilsBase.deleteWindowsServices:561]  ServiceDoesNotExist
+[main] [ 2021-03-03 11:56:14.302 IST ] [OsUtilsBase.deleteWindowsServices:578]  Removing service OracleVssWriterXE
+[main] [ 2021-03-03 11:56:14.302 IST ] [OsUtilsBase.deleteWindowsServices:586]  ServiceDoesNotExist
+[main] [ 2021-03-03 11:56:14.302 IST ] [CleanConfig.cleanCreateDB:531]  Removed Oratab XE
+[main] [ 2021-03-03 11:56:14.302 IST ] [CleanConfig.cleanConfig:320]  Successfully de-configured the following database instances : XE
+[main] [ 2021-03-03 11:56:14.302 IST ] [CleanConfig.cleanConfig:323]  DC home value C:\Users\Siddh\AppData\Local\Temp\deinstall2021-03-03_11-53-11AM
+[main] [ 2021-03-03 11:56:14.302 IST ] [CleanConfig.cleanConfig:325]  Property value oracle.installer.library_loc C:\Users\Siddh\AppData\Local\Temp\deinstall2021-03-03_11-53-11AM\oui\lib\win64
+[main] [ 2021-03-03 11:56:14.303 IST ] [CleanConfig.cleanConfig:327]  Property value oracle.installer.oui_loc C:\Users\Siddh\AppData\Local\Temp\deinstall2021-03-03_11-53-11AM\oui

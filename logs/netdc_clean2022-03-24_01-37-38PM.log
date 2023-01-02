@@ -1,0 +1,56 @@
+[main] [ 2022-03-24 13:39:11.925 IST ] [NetCADeconfig.cleanConfig:419]  Network Configuration clean config START
+[main] [ 2022-03-24 13:39:11.926 IST ] [NetCADeconfig.validateHomeType:1767]  Home Type: SIDB
+[main] [ 2022-03-24 13:39:11.926 IST ] [NetCADeconfig.cleanConfig:426]  Oracle Home: C:\Users\Siddh\Downloads\WINDOWS.X64_193000_db_home
+[main] [ 2022-03-24 13:39:11.927 IST ] [InventoryUtil.getOUIInvSession:338]  oracleHome is null. Leaving OUI properties to defaults
+[main] [ 2022-03-24 13:39:11.928 IST ] [InventoryUtil.getOUIInvSession:349]  setting OUI READ level to ACCESSLEVEL_READ_LOCKLESS
+[main] [ 2022-03-24 13:39:11.929 IST ] [HAUtils.<init>:339]  oui location C:\Program Files\Oracle\Inventory\ContentsXML
+[main] [ 2022-03-24 13:39:11.930 IST ] [InventoryUtil.getOUIInvSession:349]  setting OUI READ level to ACCESSLEVEL_READ_LOCKLESS
+[main] [ 2022-03-24 13:39:11.930 IST ] [OracleHome.isClientHome:1816]  Homeinfo C:\Users\Siddh\Downloads\WINDOWS.X64_193000_db_home,1
+[main] [ 2022-03-24 13:39:11.930 IST ] [HAUtils.<init>:372]  isClientHome: false
+[main] [ 2022-03-24 13:39:11.931 IST ] [NetCADeconfig.validateOracleHome:1795]  Oracle Home: C:\Users\Siddh\Downloads\WINDOWS.X64_193000_db_home
+[main] [ 2022-03-24 13:39:11.931 IST ] [NetCADeconfig.locationExists:2025]  Location C:\Users\Siddh\Downloads\WINDOWS.X64_193000_db_home exists: true
+[main] [ 2022-03-24 13:39:11.932 IST ] [NetCADeconfig.cleanNetConfig:811]  Clean network configuration(s).
+[main] [ 2022-03-24 13:39:11.932 IST ] [NetCADeconfig.cleanLsnrs:847]  Clean listener(s).
+[main] [ 2022-03-24 13:39:11.933 IST ] [NetCADeconfig.cleanLsnrsInSIHome:922]  Clean listener configuration(s) in SI database home.
+[main] [ 2022-03-24 13:39:11.933 IST ] [NetCADeconfig.cleanSIHALsnrs:1025]  Clean Oracle Restart enabled listener(s).
+[main] [ 2022-03-24 13:39:11.933 IST ] [NetCADeconfig.cleanSIHALsnrs:1092]  No Oracle Restart enabled listener(s) to de-configure.
+[main] [ 2022-03-24 13:39:11.934 IST ] [NetCADeconfig.cleanSILsnrs:1330]  Clean SI listener(s).
+[main] [ 2022-03-24 13:39:11.934 IST ] [InventoryUtil.getOUIInvSession:349]  setting OUI READ level to ACCESSLEVEL_READ_LOCKLESS
+[main] [ 2022-03-24 13:39:11.935 IST ] [InventoryUtil.getHomeName:113]  homeName = OraDB19Home1
+[main] [ 2022-03-24 13:39:11.965 IST ] [NetCADeconfig.createConfig:2300]  Created oracle.net.config.Config for Oracle Home: C:\Users\Siddh\Downloads\WINDOWS.X64_193000_db_home
+[main] [ 2022-03-24 13:39:11.966 IST ] [NetCADeconfig.deleteSILsnr:3184]  De-configuring listener "LISTENER" ...
+[main] [ 2022-03-24 13:39:11.985 IST ] [ListenerControl.<init>:81]  m_tnsAdmin is C:\Users\Siddh\Downloads\WINDOWS.X64_193000_db_home\NETWORK\ADMIN\
+[main] [ 2022-03-24 13:39:11.985 IST ] [ListenerControl.statusLsnr:474]  Status listener "LISTENER" ...
+[main] [ 2022-03-24 13:39:11.985 IST ] [ListenerControl.runLsnrCtl:167]  Running listener control: C:\Users\Siddh\Downloads\WINDOWS.X64_193000_db_home\bin\lsnrctl.exe status LISTENER
+[main] [ 2022-03-24 13:39:11.985 IST ] [ListenerControl.runLsnrCtl:192]  ORACLE_HOME env is set to C:\Users\Siddh\Downloads\WINDOWS.X64_193000_db_home
+[main] [ 2022-03-24 13:39:14.351 IST ] [ListenerControl.runLsnrCtl:208]  Listener Control process exit status 1
+[main] [ 2022-03-24 13:39:14.352 IST ] [ListenerControl.runLsnrCtl:213]  Listener control complete.
+[main] [ 2022-03-24 13:39:14.352 IST ] [ListenerControl.runLsnrCtl:226]  Is listener Control success: false
+[main] [ 2022-03-24 13:39:14.353 IST ] [ListenerControl.statusLsnr:479]  Listener "LISTENER" Status: false
+[main] [ 2022-03-24 13:39:14.353 IST ] [NetCADeconfig.stopSILsnr:2530]  Listener "LISTENER" is already stopped.
+[main] [ 2022-03-24 13:39:14.355 IST ] [WindowsServiceUtils.getLsnrWinSerName:75]  LISTENER: Windows Service Name: OracleOraDB19Home1TNSListener
+[main] [ 2022-03-24 13:39:14.356 IST ] [WindowsServiceUtils.stopLsnrWinService:129]  Stopping Windows Service "OracleOraDB19Home1TNSListener" ...
+[main] [ 2022-03-24 13:39:14.363 IST ] [WindowsServiceUtils.stopLsnrWinService:143]  Windows Service "OracleOraDB19Home1TNSListener" does not exist.
+[main] [ 2022-03-24 13:39:14.364 IST ] [NetCADeconfig.deleteSILsnr:3194]  Deleting listener "LISTENER" from file ...
+[main] [ 2022-03-24 13:39:14.369 IST ] [NetCADeconfig.deleteSILsnr:3204]  Listener "LISTENER" deleted from file successfully.
+[main] [ 2022-03-24 13:39:14.371 IST ] [WindowsServiceUtils.getLsnrWinSerName:75]  LISTENER: Windows Service Name: OracleOraDB19Home1TNSListener
+[main] [ 2022-03-24 13:39:14.371 IST ] [WindowsServiceUtils.deleteLsnrWinService:252]  Deleting Windows Service "OracleOraDB19Home1TNSListener" ...
+[main] [ 2022-03-24 13:39:14.372 IST ] [WindowsServiceUtils.deleteLsnrWinService:266]  Windows Service "OracleOraDB19Home1TNSListener" does not exist.
+[main] [ 2022-03-24 13:39:14.372 IST ] [NetCADeconfig.deleteSILsnr:3233]  Listener "LISTENER" de-configured successfully.
+[main] [ 2022-03-24 13:39:14.374 IST ] [NetCADeconfig.cleanSILsnrs:1390]  Following Single Instance listener(s) were de-configured successfully: LISTENER
+[main] [ 2022-03-24 13:39:14.374 IST ] [NetCADeconfig.cleanConfigFiles:3803]  Clean configuration file(s).
+[main] [ 2022-03-24 13:39:14.471 IST ] [InstallUtils.getOraBaseHomeLocation:551]  orabasehome from orabasehome C:\Users\Siddh\Downloads\WINDOWS.X64_193000_db_home
+[main] [ 2022-03-24 13:39:14.471 IST ] [NetCADeconfig.cleanConfigFiles:3827]  Deleting listener.ora ...
+[main] [ 2022-03-24 13:39:14.472 IST ] [NetCADeconfig.cleanConfigFiles:3834]  Deleted listener.ora successfully.
+[main] [ 2022-03-24 13:39:14.472 IST ] [NetCADeconfig.cleanConfigFiles:3853]  Deleting sqlnet.ora ...
+[main] [ 2022-03-24 13:39:14.473 IST ] [NetCADeconfig.cleanConfigFiles:3860]  Deleted sqlnet.ora successfully.
+[main] [ 2022-03-24 13:39:14.474 IST ] [NetCADeconfig.cleanConfigFiles:3870]  Deleting tnsnames.ora ...
+[main] [ 2022-03-24 13:39:14.475 IST ] [NetCADeconfig.cleanConfigFiles:3877]  Deleted tnsnames.ora successfully.
+[main] [ 2022-03-24 13:39:14.475 IST ] [NetCADeconfig.cleanConfigFiles:3886]  Deleting ldap.ora ...
+[main] [ 2022-03-24 13:39:14.475 IST ] [NetCADeconfig.cleanConfigFiles:3898]  ldap.ora does not exist.
+[main] [ 2022-03-24 13:39:14.475 IST ] [NetCADeconfig.cleanConfigFiles:3902]  Deleting backup files ...
+[main] [ 2022-03-24 13:39:14.477 IST ] [NetCADeconfig.cleanConfigFiles:3920]  Delete backup files successfully.
+[main] [ 2022-03-24 13:39:14.477 IST ] [NetCADeconfig.cleanCMANConfig:4149]  Clean CMAN services configuration(s), if present.
+[main] [ 2022-03-24 13:39:14.477 IST ] [NetCADeconfig.cleanCMANConfig:4179]  No CMAN services to deconfigure.
+[main] [ 2022-03-24 13:39:14.477 IST ] [NetCADeconfig.cleanConfig:495]  Following Single Instance listener(s) were de-configured successfully: LISTENER
+[main] [ 2022-03-24 13:39:14.478 IST ] [NetCADeconfig.cleanConfig:502]  Network Configuration clean config END

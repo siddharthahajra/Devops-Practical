@@ -1,0 +1,187 @@
+[main] [ 2021-03-17 11:25:08.772 IST ] [CheckConfig.checkConfig:1463]  home type SIDB
+[main] [ 2021-03-17 11:25:08.772 IST ] [DeconfigUtil.printAllEnvs:713]  ORACLE_HOME=C:\app\Siddh\product\18.0.0\dbhomeXE
+[main] [ 2021-03-17 11:25:08.772 IST ] [DeconfigUtil.printAllEnvs:714]  ORACLE_BASE=null
+[main] [ 2021-03-17 11:25:08.772 IST ] [DeconfigUtil.printAllEnvs:715]  ORACLE_SID=null
+[main] [ 2021-03-17 11:25:08.772 IST ] [DeconfigUtil.printAllEnvs:716]  ORA_CRS_HOME=null
+[main] [ 2021-03-17 11:25:08.772 IST ] [DeconfigUtil.printAllEnvs:717]  PATH=C:\Users\Siddh\AppData\Local\Temp\deinstall2021-03-17_11-25-00AM\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem
+[main] [ 2021-03-17 11:25:08.773 IST ] [CheckConfig.checkConfig:1477]  DC home value C:\Users\Siddh\AppData\Local\Temp\deinstall2021-03-17_11-25-00AM
+[main] [ 2021-03-17 11:25:08.773 IST ] [CheckConfig.checkConfig:1482]  Property value oracle.installer.library_loc C:\Users\Siddh\AppData\Local\Temp\deinstall2021-03-17_11-25-00AM\oui\lib\win64
+[main] [ 2021-03-17 11:25:08.773 IST ] [CheckConfig.checkConfig:1485]  Property value oracle.installer.oui_loc C:\Users\Siddh\AppData\Local\Temp\deinstall2021-03-17_11-25-00AM\oui
+[main] [ 2021-03-17 11:25:08.773 IST ] [CheckConfig.checkConfig:1490]  Silent option was specified
+[main] [ 2021-03-17 11:25:08.773 IST ] [CheckConfig.discoverAllConfig:971]  Param Name PROP_FILE_USED : Param file name C:\app\Siddh\product\18.0.0\deinstallXE.rsp
+[main] [ 2021-03-17 11:25:08.773 IST ] [InventoryUtil.getOUIInvSession:338]  oracleHome is null. Leaving OUI properties to defaults
+[main] [ 2021-03-17 11:25:08.773 IST ] [InventoryUtil.getOUIInvSession:349]  setting OUI READ level to ACCESSLEVEL_READ_LOCKLESS
+[main] [ 2021-03-17 11:25:08.773 IST ] [HAUtils.<init>:338]  oui location C:\Program Files\Oracle\Inventory\ContentsXML
+[main] [ 2021-03-17 11:25:08.773 IST ] [InventoryUtil.getOUIInvSession:349]  setting OUI READ level to ACCESSLEVEL_READ_LOCKLESS
+[main] [ 2021-03-17 11:25:08.774 IST ] [OracleHome.isClientHome:1801]  Homeinfo C:\app\Siddh\product\18.0.0\dbhomeXE,1
+[main] [ 2021-03-17 11:25:08.774 IST ] [HAUtils.<init>:371]  isClientHome: false
+[main] [ 2021-03-17 11:25:08.774 IST ] [cluster.Version.isPre:-1]  version to be checked 18.0.0.0.0 major version to check against 10
+[main] [ 2021-03-17 11:25:08.774 IST ] [cluster.Version.isPre:-1]  isPre.java: Returning FALSE
+[main] [ 2021-03-17 11:25:08.774 IST ] [cluster.Version.isPre:-1]  version to be checked 18.0.0.0.0 major version to check against 10
+[main] [ 2021-03-17 11:25:08.774 IST ] [cluster.Version.isPre:-1]  isPre.java: Returning FALSE
+[main] [ 2021-03-17 11:25:08.774 IST ] [WindowsSystem.regKeyExists:1618]  WindowsSystem.regKeyExists: mainkey= HKEY_LOCAL_MACHINE subkey = Software\Oracle\Ocr
+[main] [ 2021-03-17 11:25:08.774 IST ] [nativesystem.WindowsNative.Native]  
+ Native function: inside RegKeyExists Software\Oracle\Ocr HKEY_LOCAL_MACHINE
+
+[main] [ 2021-03-17 11:25:08.774 IST ] [nativesystem.WindowsNative.Native]  InitializeSecurity - successful
+
+[main] [ 2021-03-17 11:25:08.774 IST ] [nativesystem.WindowsNative.Native]  Opening registry key...
+
+[main] [ 2021-03-17 11:25:08.774 IST ] [nativesystem.WindowsNative.Native]  Key 'Software\Oracle\Ocr' does not exist
+
+[main] [ 2021-03-17 11:25:08.774 IST ] [WindowsSystem.isCRSConfigured:2047]  isOCRConfigured=false
+[main] [ 2021-03-17 11:25:08.774 IST ] [cluster.Version.isPre:-1]  version to be checked 18.0.0.0.0 major version to check against 11
+[main] [ 2021-03-17 11:25:08.774 IST ] [cluster.Version.isPre:-1]  isPre.java: Returning FALSE
+[main] [ 2021-03-17 11:25:08.775 IST ] [cluster.Version.isPre:-1]  version to be checked 18.0.0.0.0 major version to check against 11 minor version to check against 2
+[main] [ 2021-03-17 11:25:08.775 IST ] [cluster.Version.isPre:-1]  isPre: Returning FALSE for major version check
+[main] [ 2021-03-17 11:25:08.775 IST ] [WindowsSystem.isHAConfigured:2071]  olrKey = HKEY_LOCAL_MACHINE\Software\Oracle\Olr
+[main] [ 2021-03-17 11:25:08.775 IST ] [WindowsSystem.regKeyExists:1618]  WindowsSystem.regKeyExists: mainkey= HKEY_LOCAL_MACHINE subkey = Software\Oracle\Olr
+[main] [ 2021-03-17 11:25:08.775 IST ] [nativesystem.WindowsNative.Native]  
+ Native function: inside RegKeyExists Software\Oracle\Olr HKEY_LOCAL_MACHINE
+
+[main] [ 2021-03-17 11:25:08.775 IST ] [nativesystem.WindowsNative.Native]  InitializeSecurity - successful
+
+[main] [ 2021-03-17 11:25:08.775 IST ] [nativesystem.WindowsNative.Native]  Opening registry key...
+
+[main] [ 2021-03-17 11:25:08.775 IST ] [nativesystem.WindowsNative.Native]  Key 'Software\Oracle\Olr' does not exist
+
+[main] [ 2021-03-17 11:25:08.775 IST ] [WindowsSystem.isHAConfigured:2098]  isOLRConfigured=false
+[main] [ 2021-03-17 11:25:08.777 IST ] [CheckConfig.discoverDbsOnSystem:226]  Deinstall OH C:\app\Siddh\product\18.0.0\dbhomeXE
+[main] [ 2021-03-17 11:25:08.777 IST ] [CheckConfig.discoverDbsOnSystem:282]  Database discovery in Windows
+[main] [ 2021-03-17 11:25:08.781 IST ] [OsUtilsBase.getRegistryEntry:1058]  hklmKey while getting registry entryHKEY_LOCAL_MACHINE
+[main] [ 2021-03-17 11:25:08.781 IST ] [OsUtilsBase.getRegistryEntry:1059]  keyToSet while getting registry entrySYSTEM\CurrentControlSet\Services\OracleServiceXE
+[main] [ 2021-03-17 11:25:08.781 IST ] [OsUtilsWindows.enumerateSIDs:568]  imagepath c:\app\siddh\product\18.0.0\dbhomexe\bin\ORACLE.EXE XE\bin
+[main] [ 2021-03-17 11:25:08.781 IST ] [OsUtilsWindows.enumerateSIDs:572]  adding sid to sidlist XE
+[main] [ 2021-03-17 11:25:08.782 IST ] [CheckConfig.discoverDbsOnSystem:287]  sid 0 on Windows XE
+[main] [ 2021-03-17 11:25:08.784 IST ] [CheckConfig.discoverAllConfig:976]  Local flag false
+[main] [ 2021-03-17 11:25:08.784 IST ] [CheckConfig.discoverAllConfig:1080]  User specified database names. Parameter file should contain all the necessary values
+[main] [ 2021-03-17 11:25:08.784 IST ] [CheckConfig.resolveDBs:2235]  The following databases were discovered in the Oracle home specified : XE
+[main] [ 2021-03-17 11:25:08.784 IST ] [CheckConfig.resolveDBs:2243]  Additional database names were specified in the parameter file
+[main] [ 2021-03-17 11:25:08.810 IST ] [InstallUtils.getOracleBase:489]  OracleBase from orabase C:\app\Siddh\product\18.0.0
+[main] [ 2021-03-17 11:25:08.810 IST ] [CheckConfig.discoverCommonDBInfo:449]  oracle base  = C:\app\Siddh\product\18.0.0
+[main] [ 2021-03-17 11:25:08.829 IST ] [InstallUtils.getOraBaseConfigLocation:592]  orabaseconfig location from orabaseconfig util C:\app\Siddh\product\18.0.0\dbhomeXE
+[main] [ 2021-03-17 11:25:08.829 IST ] [CheckConfig.discoverCommonDBInfo:451]  oracle base config  = C:\app\Siddh\product\18.0.0\dbhomeXE\database
+[main] [ 2021-03-17 11:25:08.829 IST ] [InventoryUtil.getOUIInvSession:338]  oracleHome is null. Leaving OUI properties to defaults
+[main] [ 2021-03-17 11:25:08.829 IST ] [InventoryUtil.getOUIInvSession:349]  setting OUI READ level to ACCESSLEVEL_READ_LOCKLESS
+[main] [ 2021-03-17 11:25:08.829 IST ] [HAUtils.<init>:338]  oui location C:\Program Files\Oracle\Inventory\ContentsXML
+[main] [ 2021-03-17 11:25:08.829 IST ] [InventoryUtil.getOUIInvSession:349]  setting OUI READ level to ACCESSLEVEL_READ_LOCKLESS
+[main] [ 2021-03-17 11:25:08.829 IST ] [OracleHome.isClientHome:1801]  Homeinfo C:\app\Siddh\product\18.0.0\dbhomeXE,1
+[main] [ 2021-03-17 11:25:08.829 IST ] [HAUtils.<init>:371]  isClientHome: false
+[main] [ 2021-03-17 11:25:08.829 IST ] [CheckConfig.discoverCommonDBInfo:459]  Check ha/crs installed, configured and running
+[main] [ 2021-03-17 11:25:08.830 IST ] [cluster.Version.isPre:-1]  version to be checked 18.0.0.0.0 major version to check against 10
+[main] [ 2021-03-17 11:25:08.830 IST ] [cluster.Version.isPre:-1]  isPre.java: Returning FALSE
+[main] [ 2021-03-17 11:25:08.830 IST ] [cluster.Version.isPre:-1]  version to be checked 18.0.0.0.0 major version to check against 10
+[main] [ 2021-03-17 11:25:08.830 IST ] [cluster.Version.isPre:-1]  isPre.java: Returning FALSE
+[main] [ 2021-03-17 11:25:08.830 IST ] [WindowsSystem.regKeyExists:1618]  WindowsSystem.regKeyExists: mainkey= HKEY_LOCAL_MACHINE subkey = Software\Oracle\Ocr
+[main] [ 2021-03-17 11:25:08.830 IST ] [nativesystem.WindowsNative.Native]  
+ Native function: inside RegKeyExists Software\Oracle\Ocr HKEY_LOCAL_MACHINE
+
+[main] [ 2021-03-17 11:25:08.830 IST ] [nativesystem.WindowsNative.Native]  InitializeSecurity - successful
+
+[main] [ 2021-03-17 11:25:08.830 IST ] [nativesystem.WindowsNative.Native]  Opening registry key...
+
+[main] [ 2021-03-17 11:25:08.830 IST ] [nativesystem.WindowsNative.Native]  Key 'Software\Oracle\Ocr' does not exist
+
+[main] [ 2021-03-17 11:25:08.831 IST ] [WindowsSystem.isCRSConfigured:2047]  isOCRConfigured=false
+[main] [ 2021-03-17 11:25:08.831 IST ] [cluster.Version.isPre:-1]  version to be checked 18.0.0.0.0 major version to check against 11
+[main] [ 2021-03-17 11:25:08.831 IST ] [cluster.Version.isPre:-1]  isPre.java: Returning FALSE
+[main] [ 2021-03-17 11:25:08.831 IST ] [cluster.Version.isPre:-1]  version to be checked 18.0.0.0.0 major version to check against 11 minor version to check against 2
+[main] [ 2021-03-17 11:25:08.831 IST ] [cluster.Version.isPre:-1]  isPre: Returning FALSE for major version check
+[main] [ 2021-03-17 11:25:08.831 IST ] [WindowsSystem.isHAConfigured:2071]  olrKey = HKEY_LOCAL_MACHINE\Software\Oracle\Olr
+[main] [ 2021-03-17 11:25:08.831 IST ] [WindowsSystem.regKeyExists:1618]  WindowsSystem.regKeyExists: mainkey= HKEY_LOCAL_MACHINE subkey = Software\Oracle\Olr
+[main] [ 2021-03-17 11:25:08.831 IST ] [nativesystem.WindowsNative.Native]  
+ Native function: inside RegKeyExists Software\Oracle\Olr HKEY_LOCAL_MACHINE
+
+[main] [ 2021-03-17 11:25:08.831 IST ] [nativesystem.WindowsNative.Native]  InitializeSecurity - successful
+
+[main] [ 2021-03-17 11:25:08.831 IST ] [nativesystem.WindowsNative.Native]  Opening registry key...
+
+[main] [ 2021-03-17 11:25:08.832 IST ] [nativesystem.WindowsNative.Native]  Key 'Software\Oracle\Olr' does not exist
+
+[main] [ 2021-03-17 11:25:08.832 IST ] [WindowsSystem.isHAConfigured:2098]  isOLRConfigured=false
+[main] [ 2021-03-17 11:25:08.832 IST ] [CheckConfig.discoverCommonDBInfo:539]  db type=SI_DB
+[main] [ 2021-03-17 11:25:08.832 IST ] [CheckConfig.discoverCommonDBInfo:639]  DB type SI_DB
+[main] [ 2021-03-17 11:25:08.832 IST ] [CheckConfig.discoverCommonDBInfo:640]  hostName LAPTOP-CFOKPVP4
+[main] [ 2021-03-17 11:25:08.832 IST ] [CheckConfig.discoverCommonDBInfo:641]  dbHostName 
+[main] [ 2021-03-17 11:25:08.832 IST ] [OsUtilsBase.isServiceStarted:853]  Service state 4
+[main] [ 2021-03-17 11:25:08.832 IST ] [CheckConfig.discoverCreationDBInfo:2750]  OH C:\app\Siddh\product\18.0.0\dbhomeXE
+[main] [ 2021-03-17 11:25:08.833 IST ] [CheckConfig.discoverCreationDBInfo:2751]  SID XE
+[main] [ 2021-03-17 11:25:08.833 IST ] [DeconfigUtil.getSQLInterface:457]  OH in database : C:\app\Siddh\product\18.0.0\dbhomeXE
+[main] [ 2021-03-17 11:25:08.833 IST ] [OsUtilsBase.isServiceStarted:853]  Service state 4
+[main] [ 2021-03-17 11:25:08.833 IST ] [DeconfigUtil.getSQLInterface:464]  Sid service started true
+[main] [ 2021-03-17 11:25:08.833 IST ] [DeconfigUtil.getSQLInterface:472]  sqlplus created with home:=C:\app\Siddh\product\18.0.0\dbhomeXE and sid:=XE
+[main] [ 2021-03-17 11:25:08.835 IST ] [OracleHome.getVersion:1060]  OracleHome.getVersion called.  Current Version: null
+[main] [ 2021-03-17 11:25:08.835 IST ] [OracleHome.getVersion:1128]  Current Version From Inventory: null
+[main] [ 2021-03-17 11:25:08.835 IST ] [OracleHome.getVersion:1135]  using sqlplus: C:\app\Siddh\product\18.0.0\dbhomeXE\bin\sqlplus.exe
+[main] [ 2021-03-17 11:25:08.867 IST ] [OracleHome.getVersion:1176]  C:\app\Siddh\product\18.0.0\dbhomeXE\bin\sqlplus.exe Banner: 
+
+SQL*Plus: Release 18.0.0.0.0 - Production
+Version 18.4.0.0.0
+
+[main] [ 2021-03-17 11:25:08.867 IST ] [OracleHome.getVersion:1194]  Current version from sqlplus: 18.0.0.0.0
+[main] [ 2021-03-17 11:25:08.867 IST ] [OracleHome.getVersion:1060]  OracleHome.getVersion called.  Current Version: 18.0.0.0.0
+[main] [ 2021-03-17 11:25:08.867 IST ] [OracleHome.getVersion:1128]  Current Version From Inventory: 18.0.0.0.0
+[main] [ 2021-03-17 11:25:08.868 IST ] [OracleHome.getVersion:1060]  OracleHome.getVersion called.  Current Version: 18.0.0.0.0
+[main] [ 2021-03-17 11:25:08.868 IST ] [OracleHome.getVersion:1128]  Current Version From Inventory: 18.0.0.0.0
+[main] [ 2021-03-17 11:25:08.868 IST ] [SQLPlusEngine.getCmmdParams:226]  m_home 18.0.0.0.0
+[main] [ 2021-03-17 11:25:08.868 IST ] [SQLPlusEngine.getCmmdParams:227]  version > 112 true
+[main] [ 2021-03-17 11:25:08.868 IST ] [OsUtilsBase.getBaseFromOrabase:691]  oraBaseUtility C:\app\Siddh\product\18.0.0\dbhomeXE\bin\orabase.exe
+[main] [ 2021-03-17 11:25:08.868 IST ] [OsUtilsBase.getBaseFromOrabase:700]  cmds: C:\app\Siddh\product\18.0.0\dbhomeXE\bin\orabase.exe
+[main] [ 2021-03-17 11:25:08.869 IST ] [OsUtilsBase.getBaseFromOrabase:704]  envs:  ORACLE_HOME=C:\app\Siddh\product\18.0.0\dbhomeXE
+[main] [ 2021-03-17 11:25:08.893 IST ] [OsUtilsBase.getBaseFromOrabase:714]  baseLocation from orabase 
+C:\app\Siddh\product\18.0.0
+[main] [ 2021-03-17 11:25:08.893 IST ] [OsUtilsBase.getBaseFromOrabase:739]   orabaseLocation= C:\app\Siddh\product\18.0.0
+[main] [ 2021-03-17 11:25:08.915 IST ] [SQLEngine.getEnvParams:616]  Default NLS_LANG: AMERICAN_AMERICA.AL32UTF8
+[main] [ 2021-03-17 11:25:08.915 IST ] [SQLEngine.getEnvParams:626]  NLS_LANG: AMERICAN_AMERICA.AL32UTF8
+[main] [ 2021-03-17 11:25:08.916 IST ] [SQLEngine.initialize:373]  Execing SQLPLUS/SVRMGR process...
+[main] [ 2021-03-17 11:25:08.918 IST ] [SQLEngine.initialize:410]  m_bReaderStarted: false
+[main] [ 2021-03-17 11:25:08.918 IST ] [SQLEngine.initialize:414]  Starting Reader Thread... 
+[main] [ 2021-03-17 11:25:08.951 IST ] [DeconfigUtil.getSqlEngine:169]  connecting as SYSDBA
+[main] [ 2021-03-17 11:25:08.993 IST ] [DeconfigUtil.isDBStarted:418]  SQL select count(*) from v$instance;
+[main] [ 2021-03-17 11:25:08.994 IST ] [DeconfigUtil.isDBStarted:425]  Instance count 1
+[main] [ 2021-03-17 11:25:08.994 IST ] [CheckConfig.discoverCreationDBInfo:2760]  Local instance up true
+[main] [ 2021-03-17 11:25:09.014 IST ] [CheckConfig.discoverCreationDBInfo:2768]  diag_dest=C:\APP\SIDDH\PRODUCT\18.0.0\diag\rdbms\xe
+[main] [ 2021-03-17 11:25:09.014 IST ] [CheckConfig.discoverCreationDBInfo:2769]  diag_dest ret =true
+[main] [ 2021-03-17 11:25:09.031 IST ] [ClusterUtils.validateRawDevice:768]  Inside validateRawDevice
+[main] [ 2021-03-17 11:25:09.031 IST ] [nativesystem.WindowsNative.Native]  WindowsNative_validateRawDevice fileName = C:\APP\SIDDH\PRODUCT\18.0.0\ORADATA\XE\SYSTEM01.DBF
+
+[main] [ 2021-03-17 11:25:09.031 IST ] [nativesystem.WindowsNative.Native]  QueryDosDevice failed: osErrorMsg = The handle is invalid.
+
+
+[main] [ 2021-03-17 11:25:09.033 IST ] [ClusterUtils.validateRawDevice:780]  Device Exception
+[main] [ 2021-03-17 11:25:09.033 IST ] [ClusterUtils.isRaw:746]  PRKC-1158 : Failed to validate raw device "C:\APP\SIDDH\PRODUCT\18.0.0\ORADATA\XE\SYSTEM01.DBF" -- Details: The handle is invalid.
+
+[main] [ 2021-03-17 11:25:09.033 IST ] [ClusterUtils.validateRawDevice:768]  Inside validateRawDevice
+[main] [ 2021-03-17 11:25:09.033 IST ] [nativesystem.WindowsNative.Native]  WindowsNative_validateRawDevice fileName = C:\APP\SIDDH\PRODUCT\18.0.0\ORADATA\XE\SYSAUX01.DBF
+
+[main] [ 2021-03-17 11:25:09.033 IST ] [nativesystem.WindowsNative.Native]  QueryDosDevice failed: osErrorMsg = The handle is invalid.
+
+
+[main] [ 2021-03-17 11:25:09.034 IST ] [ClusterUtils.validateRawDevice:780]  Device Exception
+[main] [ 2021-03-17 11:25:09.034 IST ] [ClusterUtils.isRaw:746]  PRKC-1158 : Failed to validate raw device "C:\APP\SIDDH\PRODUCT\18.0.0\ORADATA\XE\SYSAUX01.DBF" -- Details: The handle is invalid.
+
+[main] [ 2021-03-17 11:25:09.034 IST ] [ClusterUtils.validateRawDevice:768]  Inside validateRawDevice
+[main] [ 2021-03-17 11:25:09.034 IST ] [nativesystem.WindowsNative.Native]  WindowsNative_validateRawDevice fileName = C:\APP\SIDDH\PRODUCT\18.0.0\ORADATA\XE\UNDOTBS01.DBF
+
+[main] [ 2021-03-17 11:25:09.034 IST ] [nativesystem.WindowsNative.Native]  QueryDosDevice failed: osErrorMsg = The handle is invalid.
+
+
+[main] [ 2021-03-17 11:25:09.034 IST ] [ClusterUtils.validateRawDevice:780]  Device Exception
+[main] [ 2021-03-17 11:25:09.034 IST ] [ClusterUtils.isRaw:746]  PRKC-1158 : Failed to validate raw device "C:\APP\SIDDH\PRODUCT\18.0.0\ORADATA\XE\UNDOTBS01.DBF" -- Details: The handle is invalid.
+
+[main] [ 2021-03-17 11:25:09.034 IST ] [ClusterUtils.validateRawDevice:768]  Inside validateRawDevice
+[main] [ 2021-03-17 11:25:09.034 IST ] [nativesystem.WindowsNative.Native]  WindowsNative_validateRawDevice fileName = C:\APP\SIDDH\PRODUCT\18.0.0\ORADATA\XE\USERS01.DBF
+
+[main] [ 2021-03-17 11:25:09.034 IST ] [nativesystem.WindowsNative.Native]  QueryDosDevice failed: osErrorMsg = The handle is invalid.
+
+
+[main] [ 2021-03-17 11:25:09.034 IST ] [ClusterUtils.validateRawDevice:780]  Device Exception
+[main] [ 2021-03-17 11:25:09.034 IST ] [ClusterUtils.isRaw:746]  PRKC-1158 : Failed to validate raw device "C:\APP\SIDDH\PRODUCT\18.0.0\ORADATA\XE\USERS01.DBF" -- Details: The handle is invalid.
+
+[main] [ 2021-03-17 11:25:09.108 IST ] [SQLEngine.done:2352]  Done called
+[main] [ 2021-03-17 11:25:09.110 IST ] [CheckConfig.checkConfig:1568]  The following databases were selected for de-configuration : XE
+[main] [ 2021-03-17 11:25:09.110 IST ] [CheckConfig.checkConfig:1568]  Database unique name : XE
+[main] [ 2021-03-17 11:25:09.110 IST ] [CheckConfig.checkConfig:1568]  Storage used : FS
+[main] [ 2021-03-17 11:25:09.110 IST ] [CheckConfig.checkConfig:1572]  DC home value C:\Users\Siddh\AppData\Local\Temp\deinstall2021-03-17_11-25-00AM
+[main] [ 2021-03-17 11:25:09.110 IST ] [CheckConfig.checkConfig:1575]  Property value oracle.installer.library_loc C:\Users\Siddh\AppData\Local\Temp\deinstall2021-03-17_11-25-00AM\oui\lib\win64
+[main] [ 2021-03-17 11:25:09.110 IST ] [CheckConfig.checkConfig:1577]  Property value oracle.installer.oui_loc C:\Users\Siddh\AppData\Local\Temp\deinstall2021-03-17_11-25-00AM\oui

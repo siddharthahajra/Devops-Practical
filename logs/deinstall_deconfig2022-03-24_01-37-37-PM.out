@@ -1,0 +1,185 @@
+
+############ ORACLE DECONFIG TOOL START ############
+
+oracle.install.library.crs.CRSInfo.isCRSConfigured() returns value false
+
+######################### DECONFIG CHECK OPERATION START #########################
+## [START] Install check configuration ##
+Gathering system details...
+Using default path : /usr/sbin/arfor ar command.
+
+Executing [C:\Users\Siddh\Downloads\WINDOWS.X64_193000_db_home\bin\orabasehome.exe]
+Starting Output Reader Threads for process C:\Users\Siddh\Downloads\WINDOWS.X64_193000_db_home\bin\orabasehome.exe
+Parsing C:\Users\Siddh\Downloads\WINDOWS.X64_193000_db_home
+The process C:\Users\Siddh\Downloads\WINDOWS.X64_193000_db_home\bin\orabasehome.exe exited with code 0
+Waiting for output processor threads to exit.
+Output processor threads exited.
+
+Checking for existence of the Oracle home location C:\Users\Siddh\Downloads\WINDOWS.X64_193000_db_home
+Oracle Home type selected for deinstall is: Oracle Single Instance Database
+Oracle Base selected for deinstall is: C:\OracleDBA
+Checking for existence of central inventory location C:\Program Files\Oracle\Inventory
+
+## [END] Install check configuration ##
+
+## [START] Checking Windows and .NET products configuration ##
+
+
+The following Windows and .NET products will be deconfigured from the Oracle home : oledbolap,ode.net,ntoledb,oramts,asp.net,odp.net
+
+## [END] Checking Windows and .NET products configuration ##
+
+
+Network Configuration check config START
+
+Network de-configuration trace file location: C:\Users\Siddh\logs\netdc_check2022-03-24_01-37-38PM.log
+
+Specify all Single Instance listeners that are to be de-configured. Enter .(dot) to deselect all. [LISTENER]:
+Network Configuration check config END
+
+Database Check Configuration START
+
+Database de-configuration trace file location: C:\Users\Siddh\logs\databasedc_check2022-03-24_01-37-38PM.log
+
+Use comma as separator when specifying list of values as input
+
+Specify the list of database names that are configured in this Oracle home []: Database Check Configuration END
+
+######################### DECONFIG CHECK OPERATION END #########################
+
+
+####################### DECONFIG CHECK OPERATION SUMMARY #######################
+Oracle Home selected for deinstall is: C:\Users\Siddh\Downloads\WINDOWS.X64_193000_db_home
+Inventory Location where the Oracle home registered is: C:\Program Files\Oracle\Inventory
+The following Windows and .NET products will be deconfigured from the Oracle home : oledbolap,ode.net,ntoledb,oramts,asp.net,odp.net
+Following Single Instance listener(s) will be de-configured: LISTENER
+Do you want to continue (y - yes, n - no)? [n]: A log of this session will be written to: 'C:\Users\Siddh\logs\deinstall_deconfig2022-03-24_01-37-37-PM.out'
+Any error messages from this session will be written to: 'C:\Users\Siddh\logs\deinstall_deconfig2022-03-24_01-37-37-PM.err'
+
+######################## DECONFIG CLEAN OPERATION START ########################
+Database de-configuration trace file location: C:\Users\Siddh\logs\databasedc_clean2022-03-24_01-37-38PM.log
+
+Network Configuration clean config START
+
+Network de-configuration trace file location: C:\Users\Siddh\logs\netdc_clean2022-03-24_01-37-38PM.log
+
+De-configuring Single Instance listener(s): LISTENER
+
+De-configuring listener: LISTENER
+    Stopping listener: LISTENER
+    Listener stopped successfully.
+    Deleting listener: LISTENER
+    Listener deleted successfully.
+Listener de-configured successfully.
+
+De-configuring Listener configuration file...
+Listener configuration file de-configured successfully.
+
+De-configuring Naming Methods configuration file...
+Naming Methods configuration file de-configured successfully.
+
+De-configuring Local Net Service Names configuration file...
+Local Net Service Names configuration file de-configured successfully.
+
+De-configuring backup files...
+Backup files de-configured successfully.
+
+The network configuration has been cleaned up successfully.
+
+Network Configuration clean config END
+
+## [START] Removing Windows and .NET products configuration ##
+
+
+## [END] Removing Windows and .NET products configuration ##
+## [START] Removing Oracle Home User configuration ##
+
+Removing Siddhartha from system specific groups 
+Removing home specific groups.
+Removing group ORA_OraDB19Home1_OPER
+Removing group ORA_OraDB19Home1_DBA
+Removing group ORA_OraDB19Home1_SYSBACKUP
+Removing group ORA_OraDB19Home1_SYSDG
+Removing group ORA_OraDB19Home1_SYSKM
+Removing group ORA_OraDB19Home1_SVCSIDS
+Removing group ORA_OraDB19Home1_SVCACCTS
+Removing Oracle Groups from system
+Removing group ORA_OPER
+Removing group ORA_DBA
+Removing group ORA_INSTALL
+Removing group ORA_GRID_LISTENERS
+Removing group ORA_ASMADMIN
+Removing group ORA_ASMDBA
+Removing group ORA_ASMOPER
+Removing group ORA_CLIENT_LISTENERS
+Removing group ORA_CRS_USERS
+Removing group ORA_RAC
+Removing group ORA_DBSVCACCTS
+
+## [END] Removing Oracle Home User configuration ##
+
+######################### DECONFIG CLEAN OPERATION END #########################
+
+
+####################### DECONFIG CLEAN OPERATION SUMMARY #######################
+Following Single Instance listener(s) were de-configured successfully: LISTENER
+Removed oledbolap configuration
+Removed ode.net configuration
+Removed ntoledb configuration
+Removed oramts configuration
+Removed asp.net configuration
+Removed odp.net configuration
+#######################################################################
+
+
+############# ORACLE DECONFIG TOOL END #############
+
+
+############ ORACLE DEINSTALL TOOL START ############
+
+oracle.install.library.crs.CRSInfo.isCRSConfigured() returns value false
+
+
+
+
+####################### DEINSTALL CHECK OPERATION SUMMARY #######################
+A log of this session will be written to: 'C:\Users\Siddh\logs\deinstall_deconfig2022-03-24_01-37-37-PM.out'
+Any error messages from this session will be written to: 'C:\Users\Siddh\logs\deinstall_deconfig2022-03-24_01-37-37-PM.err'
+
+######################## DEINSTALL CLEAN OPERATION START ########################
+## [START] Preparing for Deinstall ##
+Setting LOCAL_NODE to TermKnive
+Setting CRS_HOME to false
+Setting oracle.installer.local to false
+
+## [END] Preparing for Deinstall ##
+
+Setting the force flag to false
+Setting the force flag to cleanup the Oracle Base
+Oracle Universal Installer clean START
+
+Oracle Universal Installer cleanup completed with errors.
+
+Oracle Universal Installer clean END
+
+
+## [START] Oracle install clean ##
+
+
+## [END] Oracle install clean ##
+
+
+######################### DEINSTALL CLEAN OPERATION END #########################
+
+
+####################### DEINSTALL CLEAN OPERATION SUMMARY #######################
+Oracle Universal Installer cleanup completed with errors.
+
+Review the permissions and contents of 'C:\OracleDBA' on nodes(s) 'TermKnive'.
+If there are no Oracle home(s) associated with 'C:\OracleDBA', manually delete 'C:\OracleDBA' and its contents.
+Oracle deinstall tool successfully cleaned up temporary directories.
+#######################################################################
+
+
+############# ORACLE DEINSTALL TOOL END #############
+

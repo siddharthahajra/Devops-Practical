@@ -1,0 +1,71 @@
+
+############ ORACLE DECONFIG TOOL START ############
+
+oracle.install.library.crs.CRSInfo.isCRSConfigured() returns value false
+
+######################### DECONFIG CHECK OPERATION START #########################
+## [START] Install check configuration ##
+Gathering system details...
+Using default path : /usr/sbin/arfor ar command.
+
+Executing [C:\app\Siddh\product\18.0.0\dbhomeXE\bin\orabasehome.exe] 
+ with environment variables {PATH=C:\app\Siddh\product\18.0.0\\deinstall2021-03-03_11-52-41AM\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem, toolPath=C:\app\Siddh\product\18.0.0\dbhomeXE\deinstall\, USERDOMAIN_ROAMINGPROFILE=LAPTOP-CFOKPVP4, PROCESSOR_LEVEL=6, INSTALLED_VERSION_FLAG=true, ADSK_3DSMAX_x64_2021=C:\Program Files\Autodesk\3ds Max 2021\, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules, SystemDrive=C:, rmdirperlCmd=rmdir /S /Q "C:\app\Siddh\product\18.0.0\\deinstall2021-03-03_11-52-41AM\perl", USERNAME=Siddh, ProgramFiles(x86)=C:\Program Files (x86), GameFirstUserPath=C:\ProgramData\ASUS\GameFirst, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, TOOL_ARGS=C:\app\Siddh\product\18.0.0\dbhomeXE -silent -checkonly -tmpdir C:\app\Siddh\product\18.0.0\, DriverData=C:\Windows\System32\Drivers\DriverData, OneDriveConsumer=C:\Users\Siddh\OneDrive, GameTurbo=C:\Program Files (x86)\ASUS\GameFirst\, oracleHomeVersion=1, deinstallCmd="C:\app\Siddh\product\18.0.0\\deinstall2021-03-03_11-52-41AM\perl\bin\perl" "C:\app\Siddh\product\18.0.0\\deinstall2021-03-03_11-52-41AM\deinstall.pl" 0 1 C:\app\Siddh\product\18.0.0\\deinstall2021-03-03_11-52-41AM C:\app\Siddh\product\18.0.0\\deinstall2021-03-03_11-52-41AM C:\app\Siddh\product\18.0.0\dbhomeXE -silent -checkonly -tmpdir C:\app\Siddh\product\18.0.0\, ProgramData=C:\ProgramData, ProgramW6432=C:\Program Files, HOMEPATH=\Users\Siddh, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 165 Stepping 2, GenuineIntel, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, windir=C:\WINDOWS, LOCALAPPDATA=C:\Users\Siddh\AppData\Local, USERDOMAIN=LAPTOP-CFOKPVP4, LOGONSERVER=\\LAPTOP-CFOKPVP4, PROMPT=$P$G, OneDrive=C:\Users\Siddh\OneDrive, =C:=C:\app\Siddh\product\18.0.0\deinstall2021-03-03_11-52-41AM, APPDATA=C:\Users\Siddh\AppData\Roaming, ORACLE_HOME=C:\app\Siddh\product\18.0.0\dbhomeXE, TEMP_LOC=C:\app\Siddh\product\18.0.0\\deinstall2021-03-03_11-52-41AM, VBOX_MSI_INSTALL_PATH=C:\Program Files\Oracle\VirtualBox\, CommonProgramFiles=C:\Program Files\Common Files, OS=Windows_NT, cmdToRun=C:\app\Siddh\product\18.0.0\dbhomeXE\perl\bin\perl.exe C:\app\Siddh\product\18.0.0\dbhomeXE\deinstall\bootstrap.pl 1 C:\app\Siddh\product\18.0.0\dbhomeXE C:\app\Siddh\product\18.0.0\dbhomeXE -silent -checkonly -tmpdir C:\app\Siddh\product\18.0.0\, COMPUTERNAME=LAPTOP-CFOKPVP4, PROCESSOR_REVISION=a502, CommonProgramW6432=C:\Program Files\Common Files, ComSpec=C:\WINDOWS\system32\cmd.exe, SystemRoot=C:\WINDOWS, TEMP=C:\Users\Siddh\AppData\Local\Temp, HOMEDRIVE=C:, USERPROFILE=C:\Users\Siddh, TMP=C:\Users\Siddh\AppData\Local\Temp, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, NUMBER_OF_PROCESSORS=12}
+Starting Output Reader Threads for process C:\app\Siddh\product\18.0.0\dbhomeXE\bin\orabasehome.exe
+Parsing C:\app\Siddh\product\18.0.0\dbhomeXE
+The process C:\app\Siddh\product\18.0.0\dbhomeXE\bin\orabasehome.exe exited with code 0
+Waiting for output processor threads to exit.
+Output processor threads exited.
+
+Checking for existence of the Oracle home location C:\app\Siddh\product\18.0.0\dbhomeXE
+Oracle Home type selected for deinstall is: Oracle Single Instance Database
+Oracle Base selected for deinstall is: C:\app\Siddh\product\18.0.0
+Checking for existence of central inventory location C:\Program Files\Oracle\Inventory
+
+## [END] Install check configuration ##
+
+## [START] Checking Windows and .NET products configuration ##
+
+
+The following Windows and .NET products will be deconfigured from the Oracle home : ode.net,ntoledb,oramts,asp.net,odp.net
+
+## [END] Checking Windows and .NET products configuration ##
+
+
+Network Configuration check config START
+
+Network de-configuration trace file location: C:\Users\Siddh\logs\netdc_check2021-03-03_11-53-03AM.log
+
+Network Configuration check config END
+
+Database Check Configuration START
+
+Database de-configuration trace file location: C:\Users\Siddh\logs\databasedc_check2021-03-03_11-53-03AM.log
+
+
+###### For Database 'XE' ######
+
+Single Instance Database
+The diagnostic destination location of the database: C:\APP\SIDDH\PRODUCT\18.0.0\diag\rdbms\xe
+Storage type used by the Database: FS
+Database file location: C:\APP\SIDDH\PRODUCT\18.0.0\ORADATA\XE
+Fast recovery area location: Does not exist
+database spfile location: C:\APP\SIDDH\PRODUCT\18.0.0\DBHOMEXE\DATABASE\SPFILEXE.ORA
+Database Check Configuration END
+
+######################### DECONFIG CHECK OPERATION END #########################
+
+
+####################### DECONFIG CHECK OPERATION SUMMARY #######################
+Oracle Home selected for deinstall is: C:\app\Siddh\product\18.0.0\dbhomeXE
+Inventory Location where the Oracle home registered is: C:\Program Files\Oracle\Inventory
+The following Windows and .NET products will be deconfigured from the Oracle home : ode.net,ntoledb,oramts,asp.net,odp.net
+Following Single Instance listener(s) will be de-configured: LISTENER
+The following databases were selected for de-configuration : XE
+Database unique name : XE
+Storage used : FS
+Location of response file generated: 'C:\app\Siddh\product\18.0.0\\deinstall2021-03-03_11-52-41AM\response\deinstall_OraDB18Home1.rsp'
+A log of this session will be written to: 'C:\Users\Siddh\logs\deinstall_deconfig2021-03-03_11-53-02-AM.out'
+Any error messages from this session will be written to: 'C:\Users\Siddh\logs\deinstall_deconfig2021-03-03_11-53-02-AM.err'
+
+############# ORACLE DECONFIG TOOL END #############
+

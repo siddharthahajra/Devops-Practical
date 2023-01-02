@@ -1,0 +1,12 @@
+[main] [ 2022-03-24 13:39:11.912 IST ] [CleanConfig.cleanConfig:198]  DC home value C:\Users\Siddh\AppData\Local\Temp\deinstall2022-03-24_01-37-27PM
+[main] [ 2022-03-24 13:39:11.912 IST ] [DeconfigUtil.printAllEnvs:713]  ORACLE_HOME=C:\Users\Siddh\Downloads\WINDOWS.X64_193000_db_home
+[main] [ 2022-03-24 13:39:11.913 IST ] [DeconfigUtil.printAllEnvs:714]  ORACLE_BASE=null
+[main] [ 2022-03-24 13:39:11.913 IST ] [DeconfigUtil.printAllEnvs:715]  ORACLE_SID=null
+[main] [ 2022-03-24 13:39:11.913 IST ] [DeconfigUtil.printAllEnvs:716]  ORA_CRS_HOME=null
+[main] [ 2022-03-24 13:39:11.914 IST ] [DeconfigUtil.printAllEnvs:717]  PATH=C:\Users\Siddh\AppData\Local\Temp\deinstall2022-03-24_01-37-27PM\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem
+[main] [ 2022-03-24 13:39:11.915 IST ] [CleanConfig.cleanConfig:203]  Property value oracle.installer.library_loc C:\Users\Siddh\AppData\Local\Temp\deinstall2022-03-24_01-37-27PM\oui\lib\win64
+[main] [ 2022-03-24 13:39:11.915 IST ] [CleanConfig.cleanConfig:205]  Property value oracle.installer.oui_loc C:\Users\Siddh\AppData\Local\Temp\deinstall2022-03-24_01-37-27PM\oui
+[main] [ 2022-03-24 13:39:11.915 IST ] [CleanConfig.cleanConfig:208]  home type SIDB
+[main] [ 2022-03-24 13:39:11.915 IST ] [CleanConfig.cleanConfig:323]  DC home value C:\Users\Siddh\AppData\Local\Temp\deinstall2022-03-24_01-37-27PM
+[main] [ 2022-03-24 13:39:11.916 IST ] [CleanConfig.cleanConfig:325]  Property value oracle.installer.library_loc C:\Users\Siddh\AppData\Local\Temp\deinstall2022-03-24_01-37-27PM\oui\lib\win64
+[main] [ 2022-03-24 13:39:11.916 IST ] [CleanConfig.cleanConfig:327]  Property value oracle.installer.oui_loc C:\Users\Siddh\AppData\Local\Temp\deinstall2022-03-24_01-37-27PM\oui

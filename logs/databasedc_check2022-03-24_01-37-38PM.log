@@ -1,0 +1,52 @@
+[main] [ 2022-03-24 13:39:05.399 IST ] [CheckConfig.checkConfig:1463]  home type SIDB
+[main] [ 2022-03-24 13:39:05.400 IST ] [DeconfigUtil.printAllEnvs:713]  ORACLE_HOME=C:\Users\Siddh\Downloads\WINDOWS.X64_193000_db_home
+[main] [ 2022-03-24 13:39:05.401 IST ] [DeconfigUtil.printAllEnvs:714]  ORACLE_BASE=null
+[main] [ 2022-03-24 13:39:05.401 IST ] [DeconfigUtil.printAllEnvs:715]  ORACLE_SID=null
+[main] [ 2022-03-24 13:39:05.401 IST ] [DeconfigUtil.printAllEnvs:716]  ORA_CRS_HOME=null
+[main] [ 2022-03-24 13:39:05.402 IST ] [DeconfigUtil.printAllEnvs:717]  PATH=C:\Users\Siddh\AppData\Local\Temp\deinstall2022-03-24_01-37-27PM\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem
+[main] [ 2022-03-24 13:39:05.403 IST ] [CheckConfig.checkConfig:1477]  DC home value C:\Users\Siddh\AppData\Local\Temp\deinstall2022-03-24_01-37-27PM
+[main] [ 2022-03-24 13:39:05.403 IST ] [CheckConfig.checkConfig:1482]  Property value oracle.installer.library_loc C:\Users\Siddh\AppData\Local\Temp\deinstall2022-03-24_01-37-27PM\oui\lib\win64
+[main] [ 2022-03-24 13:39:05.404 IST ] [CheckConfig.checkConfig:1485]  Property value oracle.installer.oui_loc C:\Users\Siddh\AppData\Local\Temp\deinstall2022-03-24_01-37-27PM\oui
+[main] [ 2022-03-24 13:39:05.405 IST ] [InventoryUtil.getOUIInvSession:338]  oracleHome is null. Leaving OUI properties to defaults
+[main] [ 2022-03-24 13:39:05.405 IST ] [InventoryUtil.getOUIInvSession:349]  setting OUI READ level to ACCESSLEVEL_READ_LOCKLESS
+[main] [ 2022-03-24 13:39:05.406 IST ] [HAUtils.<init>:339]  oui location C:\Program Files\Oracle\Inventory\ContentsXML
+[main] [ 2022-03-24 13:39:05.407 IST ] [InventoryUtil.getOUIInvSession:349]  setting OUI READ level to ACCESSLEVEL_READ_LOCKLESS
+[main] [ 2022-03-24 13:39:05.407 IST ] [OracleHome.isClientHome:1816]  Homeinfo C:\Users\Siddh\Downloads\WINDOWS.X64_193000_db_home,1
+[main] [ 2022-03-24 13:39:05.408 IST ] [HAUtils.<init>:372]  isClientHome: false
+[main] [ 2022-03-24 13:39:05.408 IST ] [cluster.Version.isPre:-1]  version to be checked 19.0.0.0.0 major version to check against 10
+[main] [ 2022-03-24 13:39:05.409 IST ] [cluster.Version.isPre:-1]  isPre.java: Returning FALSE
+[main] [ 2022-03-24 13:39:05.409 IST ] [cluster.Version.isPre:-1]  version to be checked 19.0.0.0.0 major version to check against 10
+[main] [ 2022-03-24 13:39:05.409 IST ] [cluster.Version.isPre:-1]  isPre.java: Returning FALSE
+[main] [ 2022-03-24 13:39:05.410 IST ] [WindowsSystem.regKeyExists:1699]  WindowsSystem.regKeyExists: mainkey= HKEY_LOCAL_MACHINE subkey = Software\Oracle\Ocr
+[main] [ 2022-03-24 13:39:05.411 IST ] [nativesystem.WindowsNative.Native]  
+ Native function: inside RegKeyExists Software\Oracle\Ocr HKEY_LOCAL_MACHINE
+
+[main] [ 2022-03-24 13:39:05.411 IST ] [nativesystem.WindowsNative.Native]  InitializeSecurity - successful
+
+[main] [ 2022-03-24 13:39:05.412 IST ] [nativesystem.WindowsNative.Native]  Opening registry key...
+
+[main] [ 2022-03-24 13:39:05.413 IST ] [nativesystem.WindowsNative.Native]  Key 'Software\Oracle\Ocr' does not exist
+
+[main] [ 2022-03-24 13:39:05.416 IST ] [WindowsSystem.isCRSConfigured:2128]  isOCRConfigured=false
+[main] [ 2022-03-24 13:39:05.417 IST ] [cluster.Version.isPre:-1]  version to be checked 19.0.0.0.0 major version to check against 11
+[main] [ 2022-03-24 13:39:05.417 IST ] [cluster.Version.isPre:-1]  isPre.java: Returning FALSE
+[main] [ 2022-03-24 13:39:05.417 IST ] [cluster.Version.isPre:-1]  version to be checked 19.0.0.0.0 major version to check against 11 minor version to check against 2
+[main] [ 2022-03-24 13:39:05.418 IST ] [cluster.Version.isPre:-1]  isPre: Returning FALSE for major version check
+[main] [ 2022-03-24 13:39:05.418 IST ] [WindowsSystem.isHAConfigured:2152]  olrKey = HKEY_LOCAL_MACHINE\Software\Oracle\Olr
+[main] [ 2022-03-24 13:39:05.419 IST ] [WindowsSystem.regKeyExists:1699]  WindowsSystem.regKeyExists: mainkey= HKEY_LOCAL_MACHINE subkey = Software\Oracle\Olr
+[main] [ 2022-03-24 13:39:05.419 IST ] [nativesystem.WindowsNative.Native]  
+ Native function: inside RegKeyExists Software\Oracle\Olr HKEY_LOCAL_MACHINE
+
+[main] [ 2022-03-24 13:39:05.419 IST ] [nativesystem.WindowsNative.Native]  InitializeSecurity - successful
+
+[main] [ 2022-03-24 13:39:05.420 IST ] [nativesystem.WindowsNative.Native]  Opening registry key...
+
+[main] [ 2022-03-24 13:39:05.421 IST ] [nativesystem.WindowsNative.Native]  Key 'Software\Oracle\Olr' does not exist
+
+[main] [ 2022-03-24 13:39:05.422 IST ] [WindowsSystem.isHAConfigured:2179]  isOLRConfigured=false
+[main] [ 2022-03-24 13:39:05.427 IST ] [CheckConfig.discoverDbsOnSystem:226]  Deinstall OH C:\Users\Siddh\Downloads\WINDOWS.X64_193000_db_home
+[main] [ 2022-03-24 13:39:05.428 IST ] [CheckConfig.discoverDbsOnSystem:282]  Database discovery in Windows
+[main] [ 2022-03-24 13:39:05.446 IST ] [CheckConfig.discoverAllConfig:976]  Local flag false
+[main] [ 2022-03-24 13:39:07.427 IST ] [CheckConfig.checkConfig:1572]  DC home value C:\Users\Siddh\AppData\Local\Temp\deinstall2022-03-24_01-37-27PM
+[main] [ 2022-03-24 13:39:07.427 IST ] [CheckConfig.checkConfig:1575]  Property value oracle.installer.library_loc C:\Users\Siddh\AppData\Local\Temp\deinstall2022-03-24_01-37-27PM\oui\lib\win64
+[main] [ 2022-03-24 13:39:07.428 IST ] [CheckConfig.checkConfig:1577]  Property value oracle.installer.oui_loc C:\Users\Siddh\AppData\Local\Temp\deinstall2022-03-24_01-37-27PM\oui

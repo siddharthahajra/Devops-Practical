@@ -1,0 +1,247 @@
+[main] [ 2021-03-17 11:25:08.387 IST ] [NetCADeconfig.checkConfig:179]  Network Configuration check config START
+[main] [ 2021-03-17 11:25:08.387 IST ] [NetCADeconfig.checkConfig:180]  Silent: true
+[main] [ 2021-03-17 11:25:08.395 IST ] [InventoryUtil.getOUIInvSession:338]  oracleHome is null. Leaving OUI properties to defaults
+[main] [ 2021-03-17 11:25:08.395 IST ] [InventoryUtil.getOUIInvSession:349]  setting OUI READ level to ACCESSLEVEL_READ_LOCKLESS
+[main] [ 2021-03-17 11:25:08.395 IST ] [HAUtils.<init>:338]  oui location C:\Program Files\Oracle\Inventory\ContentsXML
+[main] [ 2021-03-17 11:25:08.402 IST ] [InventoryUtil.getOUIInvSession:349]  setting OUI READ level to ACCESSLEVEL_READ_LOCKLESS
+[main] [ 2021-03-17 11:25:08.402 IST ] [OracleHome.isClientHome:1801]  Homeinfo C:\app\Siddh\product\18.0.0\dbhomeXE,1
+[main] [ 2021-03-17 11:25:08.402 IST ] [HAUtils.<init>:371]  isClientHome: false
+[main] [ 2021-03-17 11:25:08.406 IST ] [cluster.Version.isPre:-1]  version to be checked 18.0.0.0.0 major version to check against 10
+[main] [ 2021-03-17 11:25:08.406 IST ] [cluster.Version.isPre:-1]  isPre.java: Returning FALSE
+[main] [ 2021-03-17 11:25:08.407 IST ] [OCR.loadLibrary:337]  
+ Inside constructor of OCR
+[main] [ 2021-03-17 11:25:08.408 IST ] [OCR.loadLibrary:345]  Going to load the ocr library
+[main] [ 2021-03-17 11:25:08.408 IST ] [Library.load:202]  library.load
+[main] [ 2021-03-17 11:25:08.408 IST ] [sPlatform.isHybrid:63]  osName=Windows 10 Home Single Language osArch=amd64 rc=false
+[main] [ 2021-03-17 11:25:08.603 IST ] [OCR.loadLibrary:347]  loaded ocr libraries
+[main] [ 2021-03-17 11:25:08.604 IST ] [SRVMContext.init:186]  Performing SRVM Context init. Init Counter=1
+[main] [ 2021-03-17 11:25:08.604 IST ] [Library.load:202]  library.load
+[main] [ 2021-03-17 11:25:08.605 IST ] [sPlatform.isHybrid:63]  osName=Windows 10 Home Single Language osArch=amd64 rc=false
+[main] [ 2021-03-17 11:25:08.630 IST ] [cluster.Version.isPre:-1]  version to be checked 18.0.0.0.0 major version to check against 10
+[main] [ 2021-03-17 11:25:08.630 IST ] [cluster.Version.isPre:-1]  isPre.java: Returning FALSE
+[main] [ 2021-03-17 11:25:08.630 IST ] [OCR.loadLibrary:337]  
+ Inside constructor of OCR
+[main] [ 2021-03-17 11:25:08.630 IST ] [SRVMContext.init:186]  Performing SRVM Context init. Init Counter=2
+[main] [ 2021-03-17 11:25:08.630 IST ] [OCR.isCluster:1059]  Calling OCRNative for isCluster()
+[main] [ 2021-03-17 11:25:08.641 IST ] [nativesystem.OCRNative.Native]  JNI: clsugetconf retValue = 0
+[main] [ 2021-03-17 11:25:08.641 IST ] [OCR.isCluster:1063]  OCR Result status = true
+[main] [ 2021-03-17 11:25:08.641 IST ] [OCR.isCluster:1075]  Bolean result = false
+[main] [ 2021-03-17 11:25:08.641 IST ] [SRVMContext.init:197]  No CRS configuration found
+[main] [ 2021-03-17 11:25:08.641 IST ] [OCR.isCluster:1059]  Calling OCRNative for isCluster()
+[main] [ 2021-03-17 11:25:08.641 IST ] [nativesystem.OCRNative.Native]  JNI: clsugetconf retValue = 0
+[main] [ 2021-03-17 11:25:08.642 IST ] [OCR.isCluster:1063]  OCR Result status = true
+[main] [ 2021-03-17 11:25:08.642 IST ] [OCR.isCluster:1075]  Bolean result = false
+[main] [ 2021-03-17 11:25:08.642 IST ] [NetCADeconfig.validateHomeType:1767]  Home Type: SIDB
+[main] [ 2021-03-17 11:25:08.642 IST ] [NetCADeconfig.validateOracleHome:1795]  Oracle Home: C:\app\Siddh\product\18.0.0\dbhomeXE
+[main] [ 2021-03-17 11:25:08.642 IST ] [NetCADeconfig.locationExists:2025]  Location C:\app\Siddh\product\18.0.0\dbhomeXE exists: true
+[main] [ 2021-03-17 11:25:08.642 IST ] [NetCADeconfig.discoverLsnrs:513]  Discover listener(s).
+[main] [ 2021-03-17 11:25:08.642 IST ] [NetCADeconfig.discoverLsnrsInSIHome:745]  Discover listener(s) in SI database home.
+[main] [ 2021-03-17 11:25:08.747 IST ] [NetCADeconfig.createConfig:2300]  Created oracle.net.config.Config for Oracle Home: C:\app\Siddh\product\18.0.0\dbhomeXE
+[main] [ 2021-03-17 11:25:08.749 IST ] [NetCADeconfig.getHASHome:1860]  HAS home from Oracle properties: null
+[main] [ 2021-03-17 11:25:08.749 IST ] [NetCADeconfig.getHASHome:1865]  Oracle home from Oracle properties: C:\app\Siddh\product\18.0.0\dbhomeXE
+[main] [ 2021-03-17 11:25:08.749 IST ] [HAUtils.getConfiguredGridHome:1370]  ----- Getting CRS HOME ----
+[main] [ 2021-03-17 11:25:08.749 IST ] [cluster.Version.isPre:-1]  version to be checked 18.0.0.0.0 major version to check against 10
+[main] [ 2021-03-17 11:25:08.749 IST ] [cluster.Version.isPre:-1]  isPre.java: Returning FALSE
+[main] [ 2021-03-17 11:25:08.749 IST ] [cluster.Version.isPre:-1]  version to be checked 18.0.0.0.0 major version to check against 10
+[main] [ 2021-03-17 11:25:08.749 IST ] [cluster.Version.isPre:-1]  isPre.java: Returning FALSE
+[main] [ 2021-03-17 11:25:08.749 IST ] [WindowsSystem.regKeyExists:1618]  WindowsSystem.regKeyExists: mainkey= HKEY_LOCAL_MACHINE subkey = Software\Oracle\Ocr
+[main] [ 2021-03-17 11:25:08.749 IST ] [nativesystem.WindowsNative.Native]  
+ Native function: inside RegKeyExists Software\Oracle\Ocr HKEY_LOCAL_MACHINE
+
+[main] [ 2021-03-17 11:25:08.749 IST ] [nativesystem.WindowsNative.Native]  InitializeSecurity - successful
+
+[main] [ 2021-03-17 11:25:08.749 IST ] [nativesystem.WindowsNative.Native]  Opening registry key...
+
+[main] [ 2021-03-17 11:25:08.750 IST ] [nativesystem.WindowsNative.Native]  Key 'Software\Oracle\Ocr' does not exist
+
+[main] [ 2021-03-17 11:25:08.752 IST ] [WindowsSystem.isCRSConfigured:2047]  isOCRConfigured=false
+[main] [ 2021-03-17 11:25:08.753 IST ] [cluster.Version.isPre:-1]  version to be checked 18.0.0.0.0 major version to check against 11
+[main] [ 2021-03-17 11:25:08.753 IST ] [cluster.Version.isPre:-1]  isPre.java: Returning FALSE
+[main] [ 2021-03-17 11:25:08.753 IST ] [cluster.Version.isPre:-1]  version to be checked 18.0.0.0.0 major version to check against 11 minor version to check against 2
+[main] [ 2021-03-17 11:25:08.753 IST ] [cluster.Version.isPre:-1]  isPre: Returning FALSE for major version check
+[main] [ 2021-03-17 11:25:08.753 IST ] [WindowsSystem.isHAConfigured:2071]  olrKey = HKEY_LOCAL_MACHINE\Software\Oracle\Olr
+[main] [ 2021-03-17 11:25:08.753 IST ] [WindowsSystem.regKeyExists:1618]  WindowsSystem.regKeyExists: mainkey= HKEY_LOCAL_MACHINE subkey = Software\Oracle\Olr
+[main] [ 2021-03-17 11:25:08.753 IST ] [nativesystem.WindowsNative.Native]  
+ Native function: inside RegKeyExists Software\Oracle\Olr HKEY_LOCAL_MACHINE
+
+[main] [ 2021-03-17 11:25:08.753 IST ] [nativesystem.WindowsNative.Native]  InitializeSecurity - successful
+
+[main] [ 2021-03-17 11:25:08.753 IST ] [nativesystem.WindowsNative.Native]  Opening registry key...
+
+[main] [ 2021-03-17 11:25:08.753 IST ] [nativesystem.WindowsNative.Native]  Key 'Software\Oracle\Olr' does not exist
+
+[main] [ 2021-03-17 11:25:08.753 IST ] [WindowsSystem.isHAConfigured:2098]  isOLRConfigured=false
+[main] [ 2021-03-17 11:25:08.754 IST ] [HAUtils.getConfiguredGridHome:1374]  Configured Grid Infrastructure home: null
+[main] [ 2021-03-17 11:25:08.754 IST ] [NetCADeconfig.getHASHome:1877]  HAS home: null
+[main] [ 2021-03-17 11:25:08.756 IST ] [HAUtils.isHASConfigured:1082]  Ignoring exception in isHASConfigured: PRCI-1112 : Directory name passed was null
+[main] [ 2021-03-17 11:25:08.756 IST ] [HAUtils.isHASConfigured:1083]  PRCI-1112 : Directory name passed was null
+oracle.cluster.deployment.ClusterwareInfo.assertDir(ClusterwareInfo.java:476)
+oracle.cluster.deployment.ClusterwareInfo.isHAConfigured(ClusterwareInfo.java:1166)
+oracle.sysman.assistants.util.hasi.HAUtils.isHASConfigured(HAUtils.java:1078)
+oracle.net.ca.NetCADeconfig.isHASRunning(NetCADeconfig.java:1922)
+oracle.net.ca.NetCADeconfig.discoverLsnrsInSIHome(NetCADeconfig.java:766)
+oracle.net.ca.NetCADeconfig.discoverLsnrs(NetCADeconfig.java:543)
+oracle.net.ca.NetCADeconfig.checkConfig(NetCADeconfig.java:224)
+oracle.net.ca.NetCADeconfig.checkConfig(NetCADeconfig.java:158)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+oracle.install.db.deinstall.wrapper.Deinstall.callCheckImpl(Deinstall.java:1437)
+oracle.install.db.deinstall.wrapper.Deinstall.main(Deinstall.java:728)
+[main] [ 2021-03-17 11:25:08.756 IST ] [NetCADeconfig.isHASRunning:1923]  Is Oracle Restart configured: false
+[main] [ 2021-03-17 11:25:08.756 IST ] [NetCADeconfig.isHASRunning:1935]  Is Oracle Restart running: false
+[main] [ 2021-03-17 11:25:08.758 IST ] [NetCADeconfig.getLsnrsFromFile:2325]  Listener(s) from configuration file: LISTENER
+[main] [ 2021-03-17 11:25:08.758 IST ] [NetCADeconfig.discoverLsnrsInSIHome:802]  NETCA_LOCAL_LISTENERS: LISTENER
+[main] [ 2021-03-17 11:25:08.758 IST ] [NetCADeconfig.hasParamFile:1985]  Oracle property file from SystemProperties: C:\app\Siddh\product\18.0.0\deinstallXE.rsp
+[main] [ 2021-03-17 11:25:08.758 IST ] [NetCADeconfig.hasParamFile:1992]  Oracle Property File used: C:\app\Siddh\product\18.0.0\deinstallXE.rsp
+[main] [ 2021-03-17 11:25:08.759 IST ] [NetCADeconfig.getLsnrsFrPropFile:1404]  Getting listener(s) to de-configure from property file.
+[main] [ 2021-03-17 11:25:08.759 IST ] [NetCADeconfig.getHASHome:1860]  HAS home from Oracle properties: null
+[main] [ 2021-03-17 11:25:08.759 IST ] [NetCADeconfig.getHASHome:1865]  Oracle home from Oracle properties: C:\app\Siddh\product\18.0.0\dbhomeXE
+[main] [ 2021-03-17 11:25:08.759 IST ] [HAUtils.getConfiguredGridHome:1370]  ----- Getting CRS HOME ----
+[main] [ 2021-03-17 11:25:08.759 IST ] [cluster.Version.isPre:-1]  version to be checked 18.0.0.0.0 major version to check against 10
+[main] [ 2021-03-17 11:25:08.759 IST ] [cluster.Version.isPre:-1]  isPre.java: Returning FALSE
+[main] [ 2021-03-17 11:25:08.759 IST ] [cluster.Version.isPre:-1]  version to be checked 18.0.0.0.0 major version to check against 10
+[main] [ 2021-03-17 11:25:08.759 IST ] [cluster.Version.isPre:-1]  isPre.java: Returning FALSE
+[main] [ 2021-03-17 11:25:08.759 IST ] [WindowsSystem.regKeyExists:1618]  WindowsSystem.regKeyExists: mainkey= HKEY_LOCAL_MACHINE subkey = Software\Oracle\Ocr
+[main] [ 2021-03-17 11:25:08.759 IST ] [nativesystem.WindowsNative.Native]  
+ Native function: inside RegKeyExists Software\Oracle\Ocr HKEY_LOCAL_MACHINE
+
+[main] [ 2021-03-17 11:25:08.759 IST ] [nativesystem.WindowsNative.Native]  InitializeSecurity - successful
+
+[main] [ 2021-03-17 11:25:08.759 IST ] [nativesystem.WindowsNative.Native]  Opening registry key...
+
+[main] [ 2021-03-17 11:25:08.759 IST ] [nativesystem.WindowsNative.Native]  Key 'Software\Oracle\Ocr' does not exist
+
+[main] [ 2021-03-17 11:25:08.759 IST ] [WindowsSystem.isCRSConfigured:2047]  isOCRConfigured=false
+[main] [ 2021-03-17 11:25:08.759 IST ] [cluster.Version.isPre:-1]  version to be checked 18.0.0.0.0 major version to check against 11
+[main] [ 2021-03-17 11:25:08.760 IST ] [cluster.Version.isPre:-1]  isPre.java: Returning FALSE
+[main] [ 2021-03-17 11:25:08.760 IST ] [cluster.Version.isPre:-1]  version to be checked 18.0.0.0.0 major version to check against 11 minor version to check against 2
+[main] [ 2021-03-17 11:25:08.760 IST ] [cluster.Version.isPre:-1]  isPre: Returning FALSE for major version check
+[main] [ 2021-03-17 11:25:08.760 IST ] [WindowsSystem.isHAConfigured:2071]  olrKey = HKEY_LOCAL_MACHINE\Software\Oracle\Olr
+[main] [ 2021-03-17 11:25:08.760 IST ] [WindowsSystem.regKeyExists:1618]  WindowsSystem.regKeyExists: mainkey= HKEY_LOCAL_MACHINE subkey = Software\Oracle\Olr
+[main] [ 2021-03-17 11:25:08.760 IST ] [nativesystem.WindowsNative.Native]  
+ Native function: inside RegKeyExists Software\Oracle\Olr HKEY_LOCAL_MACHINE
+
+[main] [ 2021-03-17 11:25:08.760 IST ] [nativesystem.WindowsNative.Native]  InitializeSecurity - successful
+
+[main] [ 2021-03-17 11:25:08.760 IST ] [nativesystem.WindowsNative.Native]  Opening registry key...
+
+[main] [ 2021-03-17 11:25:08.760 IST ] [nativesystem.WindowsNative.Native]  Key 'Software\Oracle\Olr' does not exist
+
+[main] [ 2021-03-17 11:25:08.760 IST ] [WindowsSystem.isHAConfigured:2098]  isOLRConfigured=false
+[main] [ 2021-03-17 11:25:08.760 IST ] [HAUtils.getConfiguredGridHome:1374]  Configured Grid Infrastructure home: null
+[main] [ 2021-03-17 11:25:08.760 IST ] [NetCADeconfig.getHASHome:1877]  HAS home: null
+[main] [ 2021-03-17 11:25:08.760 IST ] [HAUtils.isHASConfigured:1082]  Ignoring exception in isHASConfigured: PRCI-1112 : Directory name passed was null
+[main] [ 2021-03-17 11:25:08.761 IST ] [HAUtils.isHASConfigured:1083]  PRCI-1112 : Directory name passed was null
+oracle.cluster.deployment.ClusterwareInfo.assertDir(ClusterwareInfo.java:476)
+oracle.cluster.deployment.ClusterwareInfo.isHAConfigured(ClusterwareInfo.java:1166)
+oracle.sysman.assistants.util.hasi.HAUtils.isHASConfigured(HAUtils.java:1078)
+oracle.net.ca.NetCADeconfig.isHASRunning(NetCADeconfig.java:1922)
+oracle.net.ca.NetCADeconfig.getLsnrsFrPropFile(NetCADeconfig.java:1520)
+oracle.net.ca.NetCADeconfig.checkConfig(NetCADeconfig.java:230)
+oracle.net.ca.NetCADeconfig.checkConfig(NetCADeconfig.java:158)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+oracle.install.db.deinstall.wrapper.Deinstall.callCheckImpl(Deinstall.java:1437)
+oracle.install.db.deinstall.wrapper.Deinstall.main(Deinstall.java:728)
+[main] [ 2021-03-17 11:25:08.761 IST ] [NetCADeconfig.isHASRunning:1923]  Is Oracle Restart configured: false
+[main] [ 2021-03-17 11:25:08.761 IST ] [NetCADeconfig.isHASRunning:1935]  Is Oracle Restart running: false
+[main] [ 2021-03-17 11:25:08.761 IST ] [NetCADeconfig.getLsnrsFrPropFile:1546]  NETCA_LOCAL_LISTENERS: LISTENER
+[main] [ 2021-03-17 11:25:08.761 IST ] [NetCADeconfig.setLsnrsInPropFile:1561]  Setting listener(s) to de-configure in property file.
+[main] [ 2021-03-17 11:25:08.761 IST ] [NetCADeconfig.getHASHome:1860]  HAS home from Oracle properties: null
+[main] [ 2021-03-17 11:25:08.761 IST ] [NetCADeconfig.getHASHome:1865]  Oracle home from Oracle properties: C:\app\Siddh\product\18.0.0\dbhomeXE
+[main] [ 2021-03-17 11:25:08.761 IST ] [HAUtils.getConfiguredGridHome:1370]  ----- Getting CRS HOME ----
+[main] [ 2021-03-17 11:25:08.761 IST ] [cluster.Version.isPre:-1]  version to be checked 18.0.0.0.0 major version to check against 10
+[main] [ 2021-03-17 11:25:08.761 IST ] [cluster.Version.isPre:-1]  isPre.java: Returning FALSE
+[main] [ 2021-03-17 11:25:08.761 IST ] [cluster.Version.isPre:-1]  version to be checked 18.0.0.0.0 major version to check against 10
+[main] [ 2021-03-17 11:25:08.761 IST ] [cluster.Version.isPre:-1]  isPre.java: Returning FALSE
+[main] [ 2021-03-17 11:25:08.761 IST ] [WindowsSystem.regKeyExists:1618]  WindowsSystem.regKeyExists: mainkey= HKEY_LOCAL_MACHINE subkey = Software\Oracle\Ocr
+[main] [ 2021-03-17 11:25:08.761 IST ] [nativesystem.WindowsNative.Native]  
+ Native function: inside RegKeyExists Software\Oracle\Ocr HKEY_LOCAL_MACHINE
+
+[main] [ 2021-03-17 11:25:08.761 IST ] [nativesystem.WindowsNative.Native]  InitializeSecurity - successful
+
+[main] [ 2021-03-17 11:25:08.761 IST ] [nativesystem.WindowsNative.Native]  Opening registry key...
+
+[main] [ 2021-03-17 11:25:08.761 IST ] [nativesystem.WindowsNative.Native]  Key 'Software\Oracle\Ocr' does not exist
+
+[main] [ 2021-03-17 11:25:08.762 IST ] [WindowsSystem.isCRSConfigured:2047]  isOCRConfigured=false
+[main] [ 2021-03-17 11:25:08.762 IST ] [cluster.Version.isPre:-1]  version to be checked 18.0.0.0.0 major version to check against 11
+[main] [ 2021-03-17 11:25:08.762 IST ] [cluster.Version.isPre:-1]  isPre.java: Returning FALSE
+[main] [ 2021-03-17 11:25:08.762 IST ] [cluster.Version.isPre:-1]  version to be checked 18.0.0.0.0 major version to check against 11 minor version to check against 2
+[main] [ 2021-03-17 11:25:08.762 IST ] [cluster.Version.isPre:-1]  isPre: Returning FALSE for major version check
+[main] [ 2021-03-17 11:25:08.762 IST ] [WindowsSystem.isHAConfigured:2071]  olrKey = HKEY_LOCAL_MACHINE\Software\Oracle\Olr
+[main] [ 2021-03-17 11:25:08.762 IST ] [WindowsSystem.regKeyExists:1618]  WindowsSystem.regKeyExists: mainkey= HKEY_LOCAL_MACHINE subkey = Software\Oracle\Olr
+[main] [ 2021-03-17 11:25:08.762 IST ] [nativesystem.WindowsNative.Native]  
+ Native function: inside RegKeyExists Software\Oracle\Olr HKEY_LOCAL_MACHINE
+
+[main] [ 2021-03-17 11:25:08.762 IST ] [nativesystem.WindowsNative.Native]  InitializeSecurity - successful
+
+[main] [ 2021-03-17 11:25:08.762 IST ] [nativesystem.WindowsNative.Native]  Opening registry key...
+
+[main] [ 2021-03-17 11:25:08.762 IST ] [nativesystem.WindowsNative.Native]  Key 'Software\Oracle\Olr' does not exist
+
+[main] [ 2021-03-17 11:25:08.762 IST ] [WindowsSystem.isHAConfigured:2098]  isOLRConfigured=false
+[main] [ 2021-03-17 11:25:08.762 IST ] [HAUtils.getConfiguredGridHome:1374]  Configured Grid Infrastructure home: null
+[main] [ 2021-03-17 11:25:08.763 IST ] [NetCADeconfig.getHASHome:1877]  HAS home: null
+[main] [ 2021-03-17 11:25:08.763 IST ] [HAUtils.isHASConfigured:1082]  Ignoring exception in isHASConfigured: PRCI-1112 : Directory name passed was null
+[main] [ 2021-03-17 11:25:08.763 IST ] [HAUtils.isHASConfigured:1083]  PRCI-1112 : Directory name passed was null
+oracle.cluster.deployment.ClusterwareInfo.assertDir(ClusterwareInfo.java:476)
+oracle.cluster.deployment.ClusterwareInfo.isHAConfigured(ClusterwareInfo.java:1166)
+oracle.sysman.assistants.util.hasi.HAUtils.isHASConfigured(HAUtils.java:1078)
+oracle.net.ca.NetCADeconfig.isHASRunning(NetCADeconfig.java:1922)
+oracle.net.ca.NetCADeconfig.setLsnrsInPropFile(NetCADeconfig.java:1646)
+oracle.net.ca.NetCADeconfig.checkConfig(NetCADeconfig.java:247)
+oracle.net.ca.NetCADeconfig.checkConfig(NetCADeconfig.java:158)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+oracle.install.db.deinstall.wrapper.Deinstall.callCheckImpl(Deinstall.java:1437)
+oracle.install.db.deinstall.wrapper.Deinstall.main(Deinstall.java:728)
+[main] [ 2021-03-17 11:25:08.763 IST ] [NetCADeconfig.isHASRunning:1923]  Is Oracle Restart configured: false
+[main] [ 2021-03-17 11:25:08.763 IST ] [NetCADeconfig.isHASRunning:1935]  Is Oracle Restart running: false
+[main] [ 2021-03-17 11:25:08.763 IST ] [NetCADeconfig.getCheckConfigSummary:2164]  CONFIGFILE_LOC.XE => C:\APP\SIDDH\PRODUCT\18.0.0\ORADATA\XE\CONTROL01.CTL, C:\APP\SIDDH\PRODUCT\18.0.0\ORADATA\XE\CONTROL02.CTL,C:\APP\SIDDH\PRODUCT\18.0.0\DBHOMEXE\DATABASE\DR1XE.DAT,C:\APP\SIDDH\PRODUCT\18.0.0\DBHOMEXE\DATABASE\DR2XE.DAT
+[main] [ 2021-03-17 11:25:08.763 IST ] [NetCADeconfig.getCheckConfigSummary:2164]  LOCAL_NODE => LAPTOP-CFOKPVP4
+[main] [ 2021-03-17 11:25:08.763 IST ] [NetCADeconfig.getCheckConfigSummary:2164]  HOME_TYPE => SIDB
+[main] [ 2021-03-17 11:25:08.763 IST ] [NetCADeconfig.getCheckConfigSummary:2164]  ORACLE_BASE => C:\app\Siddh\product\18.0.0
+[main] [ 2021-03-17 11:25:08.763 IST ] [NetCADeconfig.getCheckConfigSummary:2164]  ORACLE_HOME_VERSION => 18.0.0.0.0
+[main] [ 2021-03-17 11:25:08.763 IST ] [NetCADeconfig.getCheckConfigSummary:2164]  ObaseCleanupPtrLoc => C:\app\Siddh\product\18.0.0\\deinstall2021-03-03_11-52-41AM\utl\orabase_cleanup.lst
+[main] [ 2021-03-17 11:25:08.763 IST ] [NetCADeconfig.getCheckConfigSummary:2164]  silent => true
+[main] [ 2021-03-17 11:25:08.763 IST ] [NetCADeconfig.getCheckConfigSummary:2164]  MinimumSupportedVersion => 11.2.0.1.0
+[main] [ 2021-03-17 11:25:08.764 IST ] [NetCADeconfig.getCheckConfigSummary:2164]  LOGDIR => C:\Users\Siddh\logs\
+[main] [ 2021-03-17 11:25:08.764 IST ] [NetCADeconfig.getCheckConfigSummary:2164]  ORACLE_HOME_VERSION_VALID => true
+[main] [ 2021-03-17 11:25:08.764 IST ] [NetCADeconfig.getCheckConfigSummary:2164]  LOCAL_SID.XE => XE
+[main] [ 2021-03-17 11:25:08.764 IST ] [NetCADeconfig.getCheckConfigSummary:2164]  DBCA_LOG.XE => C:\app\Siddh\product\18.0.0\cfgtoollogs\dbca\XE
+[main] [ 2021-03-17 11:25:08.764 IST ] [NetCADeconfig.getCheckConfigSummary:2164]  ORACLE_BASE_CONFIG.XE => C:\app\Siddh\product\18.0.0\dbhomeXE\database
+[main] [ 2021-03-17 11:25:08.764 IST ] [NetCADeconfig.getCheckConfigSummary:2164]  NODE_LIST.XE => LAPTOP-CFOKPVP4
+[main] [ 2021-03-17 11:25:08.764 IST ] [NetCADeconfig.getCheckConfigSummary:2164]  STORAGE_TYPE.XE => FS
+[main] [ 2021-03-17 11:25:08.764 IST ] [NetCADeconfig.getCheckConfigSummary:2164]  ORACLE_BINARY_OK => true
+[main] [ 2021-03-17 11:25:08.764 IST ] [NetCADeconfig.getCheckConfigSummary:2164]  SPFILE_LOC.XE => C:\APP\SIDDH\PRODUCT\18.0.0\DBHOMEXE\DATABASE\SPFILEXE.ORA
+[main] [ 2021-03-17 11:25:08.764 IST ] [NetCADeconfig.getCheckConfigSummary:2164]  DIAG_DEST.XE => C:\APP\SIDDH\PRODUCT\18.0.0\diag\rdbms\xe
+[main] [ 2021-03-17 11:25:08.764 IST ] [NetCADeconfig.getCheckConfigSummary:2164]  DB_TYPE.XE => SI_DB
+[main] [ 2021-03-17 11:25:08.764 IST ] [NetCADeconfig.getCheckConfigSummary:2164]  CREATION_MODE.XE => y
+[main] [ 2021-03-17 11:25:08.764 IST ] [NetCADeconfig.getCheckConfigSummary:2164]  ORACLE_BASE.XE => C:\app\Siddh\product\18.0.0
+[main] [ 2021-03-17 11:25:08.764 IST ] [NetCADeconfig.getCheckConfigSummary:2164]  WindowsRegistryCleanupList => C:\app\Siddh\product\18.0.0\\deinstall2021-03-03_11-52-41AM\utl\registry_cleanup.lst
+[main] [ 2021-03-17 11:25:08.764 IST ] [NetCADeconfig.getCheckConfigSummary:2164]  SID_LIST.XE => XE
+[main] [ 2021-03-17 11:25:08.765 IST ] [NetCADeconfig.getCheckConfigSummary:2164]  ARCHIVE_LOG_MODE_ENABLED.XE => false
+[main] [ 2021-03-17 11:25:08.765 IST ] [NetCADeconfig.getCheckConfigSummary:2164]  OPERATION_TYPE.XE => DELETEDB
+[main] [ 2021-03-17 11:25:08.765 IST ] [NetCADeconfig.getCheckConfigSummary:2164]  local => false
+[main] [ 2021-03-17 11:25:08.765 IST ] [NetCADeconfig.getCheckConfigSummary:2164]  INVENTORY_LOCATION => C:\Program Files\Oracle\Inventory
+[main] [ 2021-03-17 11:25:08.765 IST ] [NetCADeconfig.getCheckConfigSummary:2164]  UNIFIED_AUDIT_LOC.XE => C:\app\Siddh\product\18.0.0\audit
+[main] [ 2021-03-17 11:25:08.765 IST ] [NetCADeconfig.getCheckConfigSummary:2164]  NETCA_LOCAL_LISTENERS => LISTENER
+[main] [ 2021-03-17 11:25:08.765 IST ] [NetCADeconfig.getCheckConfigSummary:2164]  DUMP_DESTINATION_LOC.XE => C:\app\Siddh\product\18.0.0\admin\XE
+[main] [ 2021-03-17 11:25:08.765 IST ] [NetCADeconfig.getCheckConfigSummary:2164]  CLEANUP_ORACLE_BASE => false
+[main] [ 2021-03-17 11:25:08.765 IST ] [NetCADeconfig.getCheckConfigSummary:2164]  ORACLE_HOME => C:\app\Siddh\product\18.0.0\dbhomeXE
+[main] [ 2021-03-17 11:25:08.765 IST ] [NetCADeconfig.getCheckConfigSummary:2164]  CRS_HOME => false
+[main] [ 2021-03-17 11:25:08.765 IST ] [NetCADeconfig.getCheckConfigSummary:2164]  OLD_ACTIVE_ORACLE_HOME => 
+[main] [ 2021-03-17 11:25:08.765 IST ] [NetCADeconfig.getCheckConfigSummary:2164]  EMCA_LOG.XE => C:\app\Siddh\product\18.0.0\cfgtoollogs\emca\XE
+[main] [ 2021-03-17 11:25:08.765 IST ] [NetCADeconfig.getCheckConfigSummary:2164]  DATAFILE_LOC.XE => C:\APP\SIDDH\PRODUCT\18.0.0\ORADATA\XE
+[main] [ 2021-03-17 11:25:08.765 IST ] [NetCADeconfig.getCheckConfigSummary:2164]  COMPS_TO_REMOVE => ode.net,ntoledb,oramts,asp.net,odp.net
+[main] [ 2021-03-17 11:25:08.765 IST ] [NetCADeconfig.getCheckConfigSummary:2164]  DB_UNIQUE_NAME_LIST => XE
+[main] [ 2021-03-17 11:25:08.766 IST ] [NetCADeconfig.checkConfig:261]  CMAN presence false
+[main] [ 2021-03-17 11:25:08.766 IST ] [NetCADeconfig.checkConfig:334]  Following Single Instance listener(s) will be de-configured: LISTENER
+[main] [ 2021-03-17 11:25:08.766 IST ] [NetCADeconfig.checkConfig:341]  Network Configuration check config END

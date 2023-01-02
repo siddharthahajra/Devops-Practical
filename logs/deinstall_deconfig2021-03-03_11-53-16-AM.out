@@ -1,0 +1,218 @@
+
+############ ORACLE DECONFIG TOOL START ############
+
+oracle.install.library.crs.CRSInfo.isCRSConfigured() returns value false
+
+######################### DECONFIG CHECK OPERATION START #########################
+## [START] Install check configuration ##
+Gathering system details...
+Using default path : /usr/sbin/arfor ar command.
+
+Executing [C:\app\Siddh\product\18.0.0\dbhomeXE\bin\orabasehome.exe] 
+ with environment variables {PATH=C:\Users\Siddh\AppData\Local\Temp\deinstall2021-03-03_11-53-11AM\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem, toolPath=C:\app\Siddh\product\18.0.0\dbhomeXE\deinstall\, USERDOMAIN_ROAMINGPROFILE=LAPTOP-CFOKPVP4, PROCESSOR_LEVEL=6, INSTALLED_VERSION_FLAG=true, ADSK_3DSMAX_x64_2021=C:\Program Files\Autodesk\3ds Max 2021\, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules, SystemDrive=C:, rmdirperlCmd=rmdir /S /Q "C:\Users\Siddh\AppData\Local\Temp\deinstall2021-03-03_11-53-11AM\perl", USERNAME=Siddh, ProgramFiles(x86)=C:\Program Files (x86), GameFirstUserPath=C:\ProgramData\ASUS\GameFirst, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, TOOL_ARGS=C:\app\Siddh\product\18.0.0\dbhomeXE -silent -paramfile C:\app\Siddh\product\18.0.0\deinstallXE.rsp, DriverData=C:\Windows\System32\Drivers\DriverData, OneDriveConsumer=C:\Users\Siddh\OneDrive, GameTurbo=C:\Program Files (x86)\ASUS\GameFirst\, oracleHomeVersion=1, deinstallCmd="C:\Users\Siddh\AppData\Local\Temp\deinstall2021-03-03_11-53-11AM\perl\bin\perl" "C:\Users\Siddh\AppData\Local\Temp\deinstall2021-03-03_11-53-11AM\deinstall.pl" 0 1 C:\Users\Siddh\AppData\Local\Temp\deinstall2021-03-03_11-53-11AM C:\Users\Siddh\AppData\Local\Temp\deinstall2021-03-03_11-53-11AM C:\app\Siddh\product\18.0.0\dbhomeXE -silent -paramfile C:\app\Siddh\product\18.0.0\deinstallXE.rsp, ProgramData=C:\ProgramData, ProgramW6432=C:\Program Files, HOMEPATH=\Users\Siddh, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 165 Stepping 2, GenuineIntel, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, windir=C:\WINDOWS, LOCALAPPDATA=C:\Users\Siddh\AppData\Local, USERDOMAIN=LAPTOP-CFOKPVP4, LOGONSERVER=\\LAPTOP-CFOKPVP4, PROMPT=$P$G, OneDrive=C:\Users\Siddh\OneDrive, =C:=C:\Users\Siddh\AppData\Local\Temp\deinstall2021-03-03_11-53-11AM, APPDATA=C:\Users\Siddh\AppData\Roaming, ORACLE_HOME=C:\app\Siddh\product\18.0.0\dbhomeXE, TEMP_LOC=C:\Users\Siddh\AppData\Local\Temp\deinstall2021-03-03_11-53-11AM, VBOX_MSI_INSTALL_PATH=C:\Program Files\Oracle\VirtualBox\, CommonProgramFiles=C:\Program Files\Common Files, OS=Windows_NT, cmdToRun=C:\app\Siddh\product\18.0.0\dbhomeXE\perl\bin\perl.exe C:\app\Siddh\product\18.0.0\dbhomeXE\deinstall\bootstrap.pl 1 C:\app\Siddh\product\18.0.0\dbhomeXE C:\app\Siddh\product\18.0.0\dbhomeXE -silent -paramfile C:\app\Siddh\product\18.0.0\deinstallXE.rsp, COMPUTERNAME=LAPTOP-CFOKPVP4, PROCESSOR_REVISION=a502, CommonProgramW6432=C:\Program Files\Common Files, ComSpec=C:\WINDOWS\system32\cmd.exe, SystemRoot=C:\WINDOWS, TEMP=C:\Users\Siddh\AppData\Local\Temp, HOMEDRIVE=C:, USERPROFILE=C:\Users\Siddh, TMP=C:\Users\Siddh\AppData\Local\Temp, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, NUMBER_OF_PROCESSORS=12}
+Starting Output Reader Threads for process C:\app\Siddh\product\18.0.0\dbhomeXE\bin\orabasehome.exe
+Parsing C:\app\Siddh\product\18.0.0\dbhomeXE
+The process C:\app\Siddh\product\18.0.0\dbhomeXE\bin\orabasehome.exe exited with code 0
+Waiting for output processor threads to exit.
+Output processor threads exited.
+
+Checking for existence of the Oracle home location C:\app\Siddh\product\18.0.0\dbhomeXE
+Oracle Home type selected for deinstall is: Oracle Single Instance Database
+Oracle Base selected for deinstall is: C:\app\Siddh\product\18.0.0
+Checking for existence of central inventory location C:\Program Files\Oracle\Inventory
+
+## [END] Install check configuration ##
+
+## [START] Checking Windows and .NET products configuration ##
+
+
+The following Windows and .NET products will be deconfigured from the Oracle home : ode.net,ntoledb,oramts,asp.net,odp.net
+
+## [END] Checking Windows and .NET products configuration ##
+
+
+Network Configuration check config START
+
+Network de-configuration trace file location: C:\Users\Siddh\logs\netdc_check2021-03-03_11-53-18AM.log
+
+Network Configuration check config END
+
+Database Check Configuration START
+
+Database de-configuration trace file location: C:\Users\Siddh\logs\databasedc_check2021-03-03_11-53-18AM.log
+
+
+###### For Database 'XE' ######
+
+Single Instance Database
+The diagnostic destination location of the database: C:\APP\SIDDH\PRODUCT\18.0.0\diag\rdbms\xe
+Storage type used by the Database: FS
+Database file location: C:\APP\SIDDH\PRODUCT\18.0.0\ORADATA\XE
+Fast recovery area location: Does not exist
+database spfile location: C:\APP\SIDDH\PRODUCT\18.0.0\DBHOMEXE\DATABASE\SPFILEXE.ORA
+Database Check Configuration END
+
+######################### DECONFIG CHECK OPERATION END #########################
+
+
+####################### DECONFIG CHECK OPERATION SUMMARY #######################
+Oracle Home selected for deinstall is: C:\app\Siddh\product\18.0.0\dbhomeXE
+Inventory Location where the Oracle home registered is: C:\Program Files\Oracle\Inventory
+The following Windows and .NET products will be deconfigured from the Oracle home : ode.net,ntoledb,oramts,asp.net,odp.net
+Following Single Instance listener(s) will be de-configured: LISTENER
+The following databases were selected for de-configuration : XE
+Database unique name : XE
+Storage used : FS
+A log of this session will be written to: 'C:\Users\Siddh\logs\deinstall_deconfig2021-03-03_11-53-16-AM.out'
+Any error messages from this session will be written to: 'C:\Users\Siddh\logs\deinstall_deconfig2021-03-03_11-53-16-AM.err'
+
+######################## DECONFIG CLEAN OPERATION START ########################
+Database de-configuration trace file location: C:\Users\Siddh\logs\databasedc_clean2021-03-03_11-53-18AM.log
+Database Clean Configuration START XE
+This operation may take few minutes.
+Database Clean Configuration END XE
+
+Network Configuration clean config START
+
+Network de-configuration trace file location: C:\Users\Siddh\logs\netdc_clean2021-03-03_11-53-18AM.log
+
+De-configuring Single Instance listener(s): LISTENER
+
+De-configuring listener: LISTENER
+    Stopping listener: LISTENER
+    Listener stopped successfully.
+    Deleting listener: LISTENER
+    Listener deleted successfully.
+Listener de-configured successfully.
+
+De-configuring Listener configuration file...
+Listener configuration file de-configured successfully.
+
+De-configuring Naming Methods configuration file...
+Naming Methods configuration file de-configured successfully.
+
+De-configuring Local Net Service Names configuration file...
+Local Net Service Names configuration file de-configured successfully.
+
+De-configuring backup files...
+Backup files de-configured successfully.
+
+The network configuration has been cleaned up successfully.
+
+Network Configuration clean config END
+
+## [START] Removing Windows and .NET products configuration ##
+
+
+## [END] Removing Windows and .NET products configuration ##
+## [START] Removing Oracle Home User configuration ##
+
+Removing ORA_OraDB18Home1_SVCACCTS from system specific groups 
+Removing home specific groups.
+Removing group ORA_OraDB18Home1_OPER
+Removing group ORA_OraDB18Home1_DBA
+Removing group ORA_OraDB18Home1_SYSBACKUP
+Removing group ORA_OraDB18Home1_SYSDG
+Removing group ORA_OraDB18Home1_SYSKM
+Removing group ORA_OraDB18Home1_SVCSIDS
+Removing group ORA_OraDB18Home1_SVCACCTS
+Removing Oracle Groups from system
+Removing group ORA_OPER
+Removing group ORA_DBA
+Removing group ORA_INSTALL
+Removing group ORA_GRID_LISTENERS
+Removing group ORA_ASMADMIN
+Removing group ORA_ASMDBA
+Removing group ORA_ASMOPER
+Removing group ORA_CLIENT_LISTENERS
+Removing group ORA_CRS_USERS
+Removing group ORA_RAC
+Removing group ORA_DBSVCACCTS
+
+## [END] Removing Oracle Home User configuration ##
+
+######################### DECONFIG CLEAN OPERATION END #########################
+
+
+####################### DECONFIG CLEAN OPERATION SUMMARY #######################
+Successfully de-configured the following database instances : XE
+Following Single Instance listener(s) were de-configured successfully: LISTENER
+Removed ode.net configuration
+Removed ntoledb configuration
+Removed oramts configuration
+Removed asp.net configuration
+Removed odp.net configuration
+#######################################################################
+
+
+############# ORACLE DECONFIG TOOL END #############
+
+
+############ ORACLE DEINSTALL TOOL START ############
+
+oracle.install.library.crs.CRSInfo.isCRSConfigured() returns value false
+
+
+
+
+####################### DEINSTALL CHECK OPERATION SUMMARY #######################
+A log of this session will be written to: 'C:\Users\Siddh\logs\deinstall_deconfig2021-03-03_11-53-16-AM.out'
+Any error messages from this session will be written to: 'C:\Users\Siddh\logs\deinstall_deconfig2021-03-03_11-53-16-AM.err'
+
+######################## DEINSTALL CLEAN OPERATION START ########################
+## [START] Preparing for Deinstall ##
+Setting LOCAL_NODE to LAPTOP-CFOKPVP4
+Setting CRS_HOME to false
+Setting oracle.installer.local to false
+
+## [END] Preparing for Deinstall ##
+
+Setting the force flag to false
+Setting the force flag to cleanup the Oracle Base
+Oracle Universal Installer clean START
+
+Detach Oracle home 'C:\app\Siddh\product\18.0.0\dbhomeXE' from the central inventory on the local node : Done
+
+Delete directory 'C:\app\Siddh\product\18.0.0\dbhomeXE' on the local node : Done
+
+Delete directory 'C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Oracle - OraDB18Home1' on the local node : Done
+
+Removing oracle home 'C:\app\Siddh\product\18.0.0\dbhomeXE' from PATH variable on the local node : Done
+
+Delete directory 'C:\Program Files\Oracle\Inventory' on the local node : Done
+
+Delete Registry key 'HKEY_LOCAL_MACHINE\Software\Oracle\inst_loc' on the local node : Done
+
+The Oracle Base directory 'C:\app\Siddh\product\18.0.0' will not be removed on local node. The directory is not empty. User needs to manually cleanup this directory.
+
+Oracle Universal Installer cleanup was successful.
+
+Oracle Universal Installer clean END
+
+
+## [START] Oracle install clean ##
+
+
+## [END] Oracle install clean ##
+
+
+######################### DEINSTALL CLEAN OPERATION END #########################
+
+
+####################### DEINSTALL CLEAN OPERATION SUMMARY #######################
+Successfully detached Oracle home 'C:\app\Siddh\product\18.0.0\dbhomeXE' from the central inventory on the local node.
+Successfully deleted directory 'C:\app\Siddh\product\18.0.0\dbhomeXE' on the local node.
+Successfully deleted directory 'C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Oracle - OraDB18Home1' on the local node.
+Successfully removed oracle home 'C:\app\Siddh\product\18.0.0\dbhomeXE' from PATH variable on the local node.
+Successfully deleted directory 'C:\Program Files\Oracle\Inventory' on the local node.
+Successfully deleted Registry key 'HKEY_LOCAL_MACHINE\Software\Oracle\inst_loc' on the local node.
+Oracle Universal Installer cleanup was successful.
+
+Review the permissions and contents of 'C:\app\Siddh\product\18.0.0' on nodes(s) 'LAPTOP-CFOKPVP4'.
+If there are no Oracle home(s) associated with 'C:\app\Siddh\product\18.0.0', manually delete 'C:\app\Siddh\product\18.0.0' and its contents.
+Oracle deinstall tool successfully cleaned up temporary directories.
+#######################################################################
+
+
+############# ORACLE DEINSTALL TOOL END #############
+

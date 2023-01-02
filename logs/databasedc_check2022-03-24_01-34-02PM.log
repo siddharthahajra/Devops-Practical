@@ -1,0 +1,116 @@
+[main] [ 2022-03-24 13:34:45.196 IST ] [CheckConfig.checkConfig:1463]  home type SIDB
+[main] [ 2022-03-24 13:34:45.196 IST ] [DeconfigUtil.printAllEnvs:713]  ORACLE_HOME=C:\Users\Siddh\Downloads\WINDOWS.X64_193000_db_home
+[main] [ 2022-03-24 13:34:45.196 IST ] [DeconfigUtil.printAllEnvs:714]  ORACLE_BASE=null
+[main] [ 2022-03-24 13:34:45.196 IST ] [DeconfigUtil.printAllEnvs:715]  ORACLE_SID=null
+[main] [ 2022-03-24 13:34:45.196 IST ] [DeconfigUtil.printAllEnvs:716]  ORA_CRS_HOME=null
+[main] [ 2022-03-24 13:34:45.196 IST ] [DeconfigUtil.printAllEnvs:717]  PATH=C:\Users\Siddh\AppData\Local\Temp\deinstall2022-03-24_01-33-26PM\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem
+[main] [ 2022-03-24 13:34:45.196 IST ] [CheckConfig.checkConfig:1477]  DC home value C:\Users\Siddh\AppData\Local\Temp\deinstall2022-03-24_01-33-26PM
+[main] [ 2022-03-24 13:34:45.196 IST ] [CheckConfig.checkConfig:1482]  Property value oracle.installer.library_loc C:\Users\Siddh\AppData\Local\Temp\deinstall2022-03-24_01-33-26PM\oui\lib\win64
+[main] [ 2022-03-24 13:34:45.196 IST ] [CheckConfig.checkConfig:1485]  Property value oracle.installer.oui_loc C:\Users\Siddh\AppData\Local\Temp\deinstall2022-03-24_01-33-26PM\oui
+[main] [ 2022-03-24 13:34:45.207 IST ] [InventoryUtil.getOUIInvSession:338]  oracleHome is null. Leaving OUI properties to defaults
+[main] [ 2022-03-24 13:34:45.207 IST ] [InventoryUtil.getOUIInvSession:349]  setting OUI READ level to ACCESSLEVEL_READ_LOCKLESS
+[main] [ 2022-03-24 13:34:45.207 IST ] [HAUtils.<init>:339]  oui location C:\Program Files\Oracle\Inventory\ContentsXML
+[main] [ 2022-03-24 13:34:45.207 IST ] [InventoryUtil.getOUIInvSession:349]  setting OUI READ level to ACCESSLEVEL_READ_LOCKLESS
+[main] [ 2022-03-24 13:34:45.212 IST ] [OracleHome.isClientHome:1816]  Homeinfo C:\Users\Siddh\Downloads\WINDOWS.X64_193000_db_home,1
+[main] [ 2022-03-24 13:34:45.212 IST ] [HAUtils.<init>:372]  isClientHome: false
+[main] [ 2022-03-24 13:34:45.213 IST ] [cluster.Version.isPre:-1]  version to be checked 19.0.0.0.0 major version to check against 10
+[main] [ 2022-03-24 13:34:45.213 IST ] [cluster.Version.isPre:-1]  isPre.java: Returning FALSE
+[main] [ 2022-03-24 13:34:45.214 IST ] [cluster.Version.isPre:-1]  version to be checked 19.0.0.0.0 major version to check against 10
+[main] [ 2022-03-24 13:34:45.214 IST ] [cluster.Version.isPre:-1]  isPre.java: Returning FALSE
+[main] [ 2022-03-24 13:34:45.214 IST ] [WindowsSystem.regKeyExists:1699]  WindowsSystem.regKeyExists: mainkey= HKEY_LOCAL_MACHINE subkey = Software\Oracle\Ocr
+[main] [ 2022-03-24 13:34:45.215 IST ] [nativesystem.WindowsNative.Native]  
+ Native function: inside RegKeyExists Software\Oracle\Ocr HKEY_LOCAL_MACHINE
+
+[main] [ 2022-03-24 13:34:45.215 IST ] [nativesystem.WindowsNative.Native]  InitializeSecurity - successful
+
+[main] [ 2022-03-24 13:34:45.216 IST ] [nativesystem.WindowsNative.Native]  Opening registry key...
+
+[main] [ 2022-03-24 13:34:45.216 IST ] [nativesystem.WindowsNative.Native]  Key 'Software\Oracle\Ocr' does not exist
+
+[main] [ 2022-03-24 13:34:45.227 IST ] [WindowsSystem.isCRSConfigured:2128]  isOCRConfigured=false
+[main] [ 2022-03-24 13:34:45.228 IST ] [cluster.Version.isPre:-1]  version to be checked 19.0.0.0.0 major version to check against 11
+[main] [ 2022-03-24 13:34:45.228 IST ] [cluster.Version.isPre:-1]  isPre.java: Returning FALSE
+[main] [ 2022-03-24 13:34:45.229 IST ] [cluster.Version.isPre:-1]  version to be checked 19.0.0.0.0 major version to check against 11 minor version to check against 2
+[main] [ 2022-03-24 13:34:45.229 IST ] [cluster.Version.isPre:-1]  isPre: Returning FALSE for major version check
+[main] [ 2022-03-24 13:34:45.229 IST ] [WindowsSystem.isHAConfigured:2152]  olrKey = HKEY_LOCAL_MACHINE\Software\Oracle\Olr
+[main] [ 2022-03-24 13:34:45.230 IST ] [WindowsSystem.regKeyExists:1699]  WindowsSystem.regKeyExists: mainkey= HKEY_LOCAL_MACHINE subkey = Software\Oracle\Olr
+[main] [ 2022-03-24 13:34:45.230 IST ] [nativesystem.WindowsNative.Native]  
+ Native function: inside RegKeyExists Software\Oracle\Olr HKEY_LOCAL_MACHINE
+
+[main] [ 2022-03-24 13:34:45.231 IST ] [nativesystem.WindowsNative.Native]  InitializeSecurity - successful
+
+[main] [ 2022-03-24 13:34:45.232 IST ] [nativesystem.WindowsNative.Native]  Opening registry key...
+
+[main] [ 2022-03-24 13:34:45.232 IST ] [nativesystem.WindowsNative.Native]  Key 'Software\Oracle\Olr' does not exist
+
+[main] [ 2022-03-24 13:34:45.233 IST ] [WindowsSystem.isHAConfigured:2179]  isOLRConfigured=false
+[main] [ 2022-03-24 13:34:45.240 IST ] [CheckConfig.discoverDbsOnSystem:226]  Deinstall OH C:\Users\Siddh\Downloads\WINDOWS.X64_193000_db_home
+[main] [ 2022-03-24 13:34:45.241 IST ] [CheckConfig.discoverDbsOnSystem:282]  Database discovery in Windows
+[main] [ 2022-03-24 13:34:45.270 IST ] [CheckConfig.discoverAllConfig:976]  Local flag false
+[main] [ 2022-03-24 13:34:58.380 IST ] [CheckConfig.resolveDBs:2235]  The following databases were discovered in the Oracle home specified : SIDDHARTHA
+[main] [ 2022-03-24 13:34:58.465 IST ] [InstallUtils.getOracleBase:489]  OracleBase from orabase C:\OracleDBA
+[main] [ 2022-03-24 13:34:58.465 IST ] [CheckConfig.discoverCommonDBInfo:449]  oracle base  = C:\OracleDBA
+[main] [ 2022-03-24 13:34:58.522 IST ] [InstallUtils.getOraBaseConfigLocation:592]  orabaseconfig location from orabaseconfig util C:\Users\Siddh\Downloads\WINDOWS.X64_193000_db_home
+[main] [ 2022-03-24 13:34:58.522 IST ] [CheckConfig.discoverCommonDBInfo:451]  oracle base config  = C:\Users\Siddh\Downloads\WINDOWS.X64_193000_db_home\database
+[main] [ 2022-03-24 13:34:58.522 IST ] [InventoryUtil.getOUIInvSession:338]  oracleHome is null. Leaving OUI properties to defaults
+[main] [ 2022-03-24 13:34:58.522 IST ] [InventoryUtil.getOUIInvSession:349]  setting OUI READ level to ACCESSLEVEL_READ_LOCKLESS
+[main] [ 2022-03-24 13:34:58.522 IST ] [HAUtils.<init>:339]  oui location C:\Program Files\Oracle\Inventory\ContentsXML
+[main] [ 2022-03-24 13:34:58.522 IST ] [InventoryUtil.getOUIInvSession:349]  setting OUI READ level to ACCESSLEVEL_READ_LOCKLESS
+[main] [ 2022-03-24 13:34:58.522 IST ] [OracleHome.isClientHome:1816]  Homeinfo C:\Users\Siddh\Downloads\WINDOWS.X64_193000_db_home,1
+[main] [ 2022-03-24 13:34:58.522 IST ] [HAUtils.<init>:372]  isClientHome: false
+[main] [ 2022-03-24 13:34:58.522 IST ] [CheckConfig.discoverCommonDBInfo:459]  Check ha/crs installed, configured and running
+[main] [ 2022-03-24 13:34:58.522 IST ] [cluster.Version.isPre:-1]  version to be checked 19.0.0.0.0 major version to check against 10
+[main] [ 2022-03-24 13:34:58.522 IST ] [cluster.Version.isPre:-1]  isPre.java: Returning FALSE
+[main] [ 2022-03-24 13:34:58.522 IST ] [cluster.Version.isPre:-1]  version to be checked 19.0.0.0.0 major version to check against 10
+[main] [ 2022-03-24 13:34:58.522 IST ] [cluster.Version.isPre:-1]  isPre.java: Returning FALSE
+[main] [ 2022-03-24 13:34:58.522 IST ] [WindowsSystem.regKeyExists:1699]  WindowsSystem.regKeyExists: mainkey= HKEY_LOCAL_MACHINE subkey = Software\Oracle\Ocr
+[main] [ 2022-03-24 13:34:58.522 IST ] [nativesystem.WindowsNative.Native]  
+ Native function: inside RegKeyExists Software\Oracle\Ocr HKEY_LOCAL_MACHINE
+
+[main] [ 2022-03-24 13:34:58.522 IST ] [nativesystem.WindowsNative.Native]  InitializeSecurity - successful
+
+[main] [ 2022-03-24 13:34:58.522 IST ] [nativesystem.WindowsNative.Native]  Opening registry key...
+
+[main] [ 2022-03-24 13:34:58.525 IST ] [nativesystem.WindowsNative.Native]  Key 'Software\Oracle\Ocr' does not exist
+
+[main] [ 2022-03-24 13:34:58.525 IST ] [WindowsSystem.isCRSConfigured:2128]  isOCRConfigured=false
+[main] [ 2022-03-24 13:34:58.525 IST ] [cluster.Version.isPre:-1]  version to be checked 19.0.0.0.0 major version to check against 11
+[main] [ 2022-03-24 13:34:58.525 IST ] [cluster.Version.isPre:-1]  isPre.java: Returning FALSE
+[main] [ 2022-03-24 13:34:58.525 IST ] [cluster.Version.isPre:-1]  version to be checked 19.0.0.0.0 major version to check against 11 minor version to check against 2
+[main] [ 2022-03-24 13:34:58.525 IST ] [cluster.Version.isPre:-1]  isPre: Returning FALSE for major version check
+[main] [ 2022-03-24 13:34:58.525 IST ] [WindowsSystem.isHAConfigured:2152]  olrKey = HKEY_LOCAL_MACHINE\Software\Oracle\Olr
+[main] [ 2022-03-24 13:34:58.525 IST ] [WindowsSystem.regKeyExists:1699]  WindowsSystem.regKeyExists: mainkey= HKEY_LOCAL_MACHINE subkey = Software\Oracle\Olr
+[main] [ 2022-03-24 13:34:58.525 IST ] [nativesystem.WindowsNative.Native]  
+ Native function: inside RegKeyExists Software\Oracle\Olr HKEY_LOCAL_MACHINE
+
+[main] [ 2022-03-24 13:34:58.525 IST ] [nativesystem.WindowsNative.Native]  InitializeSecurity - successful
+
+[main] [ 2022-03-24 13:34:58.525 IST ] [nativesystem.WindowsNative.Native]  Opening registry key...
+
+[main] [ 2022-03-24 13:34:58.525 IST ] [nativesystem.WindowsNative.Native]  Key 'Software\Oracle\Olr' does not exist
+
+[main] [ 2022-03-24 13:34:58.525 IST ] [WindowsSystem.isHAConfigured:2179]  isOLRConfigured=false
+[main] [ 2022-03-24 13:34:58.525 IST ] [CheckConfig.discoverCommonDBInfo:539]  db type=SI_DB
+[main] [ 2022-03-24 13:34:58.525 IST ] [CheckConfig.discoverCommonDBInfo:639]  DB type SI_DB
+[main] [ 2022-03-24 13:34:58.525 IST ] [CheckConfig.discoverCommonDBInfo:640]  hostName TermKnive
+[main] [ 2022-03-24 13:34:58.525 IST ] [CheckConfig.discoverCommonDBInfo:641]  dbHostName 
+[main] [ 2022-03-24 13:34:58.525 IST ] [OsUtilsBase.isServiceStarted:866]  Exception while querying service PermissionDenied
+[main] [ 2022-03-24 13:34:58.525 IST ] [CheckConfig.discoverCommonDBInfo:676]  Start the OracleServiceSIDDHARTHA
+[main] [ 2022-03-24 13:34:58.525 IST ] [OsUtilsBase.isServiceStarted:866]  Exception while querying service PermissionDenied
+[main] [ 2022-03-24 13:34:58.525 IST ] [OsUtilsBase.startService:750]  isRunning false
+[main] [ 2022-03-24 13:34:58.525 IST ] [OsUtilsBase.startService:753]  Service is not running, Starting
+[main] [ 2022-03-24 13:34:58.525 IST ] [OsUtilsBase.startService:765]  Exception while starting service PermissionDenied
+[main] [ 2022-03-24 13:34:58.525 IST ] [OsUtilsWindows.waitForServiceOperation:456]  Checking for service: OracleServiceSIDDHARTHA started: true
+[main] [ 2022-03-24 13:34:58.525 IST ] [OsUtilsBase.isServiceStarted:866]  Exception while querying service PermissionDenied
+[main] [ 2022-03-24 13:35:08.530 IST ] [OsUtilsWindows.waitForServiceOperation:456]  Checking for service: OracleServiceSIDDHARTHA started: true
+[main] [ 2022-03-24 13:35:08.530 IST ] [OsUtilsBase.isServiceStarted:866]  Exception while querying service PermissionDenied
+[main] [ 2022-03-24 13:35:18.542 IST ] [OsUtilsWindows.waitForServiceOperation:456]  Checking for service: OracleServiceSIDDHARTHA started: true
+[main] [ 2022-03-24 13:35:18.543 IST ] [OsUtilsBase.isServiceStarted:866]  Exception while querying service PermissionDenied
+[main] [ 2022-03-24 13:35:28.554 IST ] [OsUtilsWindows.waitForServiceOperation:456]  Checking for service: OracleServiceSIDDHARTHA started: true
+[main] [ 2022-03-24 13:35:28.555 IST ] [OsUtilsBase.isServiceStarted:866]  Exception while querying service PermissionDenied
+[main] [ 2022-03-24 13:35:38.565 IST ] [OsUtilsWindows.waitForServiceOperation:456]  Checking for service: OracleServiceSIDDHARTHA started: true
+[main] [ 2022-03-24 13:35:38.566 IST ] [OsUtilsBase.isServiceStarted:866]  Exception while querying service PermissionDenied
+[main] [ 2022-03-24 13:35:48.569 IST ] [OsUtilsWindows.waitForServiceOperation:456]  Checking for service: OracleServiceSIDDHARTHA started: true
+[main] [ 2022-03-24 13:35:48.571 IST ] [OsUtilsBase.isServiceStarted:866]  Exception while querying service PermissionDenied
+[main] [ 2022-03-24 13:35:58.581 IST ] [OsUtilsWindows.waitForServiceOperation:456]  Checking for service: OracleServiceSIDDHARTHA started: true
+[main] [ 2022-03-24 13:35:58.581 IST ] [OsUtilsBase.isServiceStarted:866]  Exception while querying service PermissionDenied

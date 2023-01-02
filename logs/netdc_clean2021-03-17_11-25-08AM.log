@@ -1,0 +1,62 @@
+[main] [ 2021-03-17 11:28:01.981 IST ] [NetCADeconfig.cleanConfig:419]  Network Configuration clean config START
+[main] [ 2021-03-17 11:28:01.981 IST ] [NetCADeconfig.validateHomeType:1767]  Home Type: SIDB
+[main] [ 2021-03-17 11:28:01.981 IST ] [NetCADeconfig.cleanConfig:426]  Oracle Home: C:\app\Siddh\product\18.0.0\dbhomeXE
+[main] [ 2021-03-17 11:28:01.981 IST ] [InventoryUtil.getOUIInvSession:338]  oracleHome is null. Leaving OUI properties to defaults
+[main] [ 2021-03-17 11:28:01.981 IST ] [InventoryUtil.getOUIInvSession:349]  setting OUI READ level to ACCESSLEVEL_READ_LOCKLESS
+[main] [ 2021-03-17 11:28:01.982 IST ] [HAUtils.<init>:338]  oui location C:\Program Files\Oracle\Inventory\ContentsXML
+[main] [ 2021-03-17 11:28:01.982 IST ] [InventoryUtil.getOUIInvSession:349]  setting OUI READ level to ACCESSLEVEL_READ_LOCKLESS
+[main] [ 2021-03-17 11:28:01.982 IST ] [OracleHome.isClientHome:1801]  Homeinfo C:\app\Siddh\product\18.0.0\dbhomeXE,1
+[main] [ 2021-03-17 11:28:01.982 IST ] [HAUtils.<init>:371]  isClientHome: false
+[main] [ 2021-03-17 11:28:01.982 IST ] [NetCADeconfig.validateOracleHome:1795]  Oracle Home: C:\app\Siddh\product\18.0.0\dbhomeXE
+[main] [ 2021-03-17 11:28:01.982 IST ] [NetCADeconfig.locationExists:2025]  Location C:\app\Siddh\product\18.0.0\dbhomeXE exists: true
+[main] [ 2021-03-17 11:28:01.982 IST ] [NetCADeconfig.cleanNetConfig:811]  Clean network configuration(s).
+[main] [ 2021-03-17 11:28:01.982 IST ] [NetCADeconfig.cleanLsnrs:847]  Clean listener(s).
+[main] [ 2021-03-17 11:28:01.982 IST ] [NetCADeconfig.cleanLsnrsInSIHome:922]  Clean listener configuration(s) in SI database home.
+[main] [ 2021-03-17 11:28:01.982 IST ] [NetCADeconfig.cleanSIHALsnrs:1025]  Clean Oracle Restart enabled listener(s).
+[main] [ 2021-03-17 11:28:01.982 IST ] [NetCADeconfig.cleanSIHALsnrs:1092]  No Oracle Restart enabled listener(s) to de-configure.
+[main] [ 2021-03-17 11:28:01.982 IST ] [NetCADeconfig.cleanSILsnrs:1330]  Clean SI listener(s).
+[main] [ 2021-03-17 11:28:01.982 IST ] [InventoryUtil.getOUIInvSession:349]  setting OUI READ level to ACCESSLEVEL_READ_LOCKLESS
+[main] [ 2021-03-17 11:28:01.982 IST ] [InventoryUtil.getHomeName:113]  homeName = OraDB18Home1
+[main] [ 2021-03-17 11:28:01.988 IST ] [NetCADeconfig.createConfig:2300]  Created oracle.net.config.Config for Oracle Home: C:\app\Siddh\product\18.0.0\dbhomeXE
+[main] [ 2021-03-17 11:28:01.989 IST ] [NetCADeconfig.deleteSILsnr:3184]  De-configuring listener "LISTENER" ...
+[main] [ 2021-03-17 11:28:01.995 IST ] [ListenerControl.<init>:81]  m_tnsAdmin is C:\app\Siddh\product\18.0.0\dbhomeXE\NETWORK\ADMIN\
+[main] [ 2021-03-17 11:28:01.995 IST ] [ListenerControl.statusLsnr:474]  Status listener "LISTENER" ...
+[main] [ 2021-03-17 11:28:01.996 IST ] [ListenerControl.runLsnrCtl:167]  Running listener control: C:\app\Siddh\product\18.0.0\dbhomeXE\bin\lsnrctl.exe status LISTENER
+[main] [ 2021-03-17 11:28:01.996 IST ] [ListenerControl.runLsnrCtl:192]  ORACLE_HOME env is set to C:\app\Siddh\product\18.0.0\dbhomeXE
+[main] [ 2021-03-17 11:28:02.029 IST ] [ListenerControl.runLsnrCtl:208]  Listener Control process exit status 0
+[main] [ 2021-03-17 11:28:02.029 IST ] [ListenerControl.runLsnrCtl:213]  Listener control complete.
+[main] [ 2021-03-17 11:28:02.029 IST ] [ListenerControl.runLsnrCtl:226]  Is listener Control success: true
+[main] [ 2021-03-17 11:28:02.029 IST ] [ListenerControl.statusLsnr:479]  Listener "LISTENER" Status: true
+[main] [ 2021-03-17 11:28:02.029 IST ] [ListenerControl.stopLsnr:328]  Stopping listener "LISTENER" ...
+[main] [ 2021-03-17 11:28:02.030 IST ] [ListenerControl.runLsnrCtl:167]  Running listener control: C:\app\Siddh\product\18.0.0\dbhomeXE\bin\lsnrctl.exe stop LISTENER
+[main] [ 2021-03-17 11:28:02.030 IST ] [ListenerControl.runLsnrCtl:192]  ORACLE_HOME env is set to C:\app\Siddh\product\18.0.0\dbhomeXE
+[main] [ 2021-03-17 11:28:10.370 IST ] [ListenerControl.runLsnrCtl:208]  Listener Control process exit status 0
+[main] [ 2021-03-17 11:28:10.370 IST ] [ListenerControl.runLsnrCtl:213]  Listener control complete.
+[main] [ 2021-03-17 11:28:10.370 IST ] [ListenerControl.runLsnrCtl:226]  Is listener Control success: true
+[main] [ 2021-03-17 11:28:10.370 IST ] [ListenerControl.stopLsnr:333]  Is listener "LISTENER" stopped: true
+[main] [ 2021-03-17 11:28:10.371 IST ] [WindowsServiceUtils.getLsnrWinSerName:75]  LISTENER: Windows Service Name: OracleOraDB18Home1TNSListener
+[main] [ 2021-03-17 11:28:10.371 IST ] [WindowsServiceUtils.stopLsnrWinService:129]  Stopping Windows Service "OracleOraDB18Home1TNSListener" ...
+[main] [ 2021-03-17 11:28:10.373 IST ] [WindowsServiceUtils.stopLsnrWinService:137]  Windows Service "OracleOraDB18Home1TNSListener" stopped successfully.
+[main] [ 2021-03-17 11:28:10.373 IST ] [NetCADeconfig.deleteSILsnr:3194]  Deleting listener "LISTENER" from file ...
+[main] [ 2021-03-17 11:28:10.373 IST ] [NetCADeconfig.deleteSILsnr:3204]  Listener "LISTENER" deleted from file successfully.
+[main] [ 2021-03-17 11:28:10.374 IST ] [WindowsServiceUtils.getLsnrWinSerName:75]  LISTENER: Windows Service Name: OracleOraDB18Home1TNSListener
+[main] [ 2021-03-17 11:28:10.374 IST ] [WindowsServiceUtils.deleteLsnrWinService:252]  Deleting Windows Service "OracleOraDB18Home1TNSListener" ...
+[main] [ 2021-03-17 11:28:10.374 IST ] [WindowsServiceUtils.deleteLsnrWinService:260]  Windows Service "OracleOraDB18Home1TNSListener" deleted successfully.
+[main] [ 2021-03-17 11:28:10.374 IST ] [NetCADeconfig.deleteSILsnr:3233]  Listener "LISTENER" de-configured successfully.
+[main] [ 2021-03-17 11:28:10.374 IST ] [NetCADeconfig.cleanSILsnrs:1390]  Following Single Instance listener(s) were de-configured successfully: LISTENER
+[main] [ 2021-03-17 11:28:10.374 IST ] [NetCADeconfig.cleanConfigFiles:3803]  Clean configuration file(s).
+[main] [ 2021-03-17 11:28:10.394 IST ] [InstallUtils.getOraBaseHomeLocation:551]  orabasehome from orabasehome C:\app\Siddh\product\18.0.0\dbhomeXE
+[main] [ 2021-03-17 11:28:10.394 IST ] [NetCADeconfig.cleanConfigFiles:3827]  Deleting listener.ora ...
+[main] [ 2021-03-17 11:28:10.395 IST ] [NetCADeconfig.cleanConfigFiles:3834]  Deleted listener.ora successfully.
+[main] [ 2021-03-17 11:28:10.395 IST ] [NetCADeconfig.cleanConfigFiles:3853]  Deleting sqlnet.ora ...
+[main] [ 2021-03-17 11:28:10.395 IST ] [NetCADeconfig.cleanConfigFiles:3860]  Deleted sqlnet.ora successfully.
+[main] [ 2021-03-17 11:28:10.396 IST ] [NetCADeconfig.cleanConfigFiles:3870]  Deleting tnsnames.ora ...
+[main] [ 2021-03-17 11:28:10.396 IST ] [NetCADeconfig.cleanConfigFiles:3877]  Deleted tnsnames.ora successfully.
+[main] [ 2021-03-17 11:28:10.396 IST ] [NetCADeconfig.cleanConfigFiles:3886]  Deleting ldap.ora ...
+[main] [ 2021-03-17 11:28:10.396 IST ] [NetCADeconfig.cleanConfigFiles:3898]  ldap.ora does not exist.
+[main] [ 2021-03-17 11:28:10.396 IST ] [NetCADeconfig.cleanConfigFiles:3902]  Deleting backup files ...
+[main] [ 2021-03-17 11:28:10.397 IST ] [NetCADeconfig.cleanConfigFiles:3920]  Delete backup files successfully.
+[main] [ 2021-03-17 11:28:10.397 IST ] [NetCADeconfig.cleanCMANConfig:4149]  Clean CMAN services configuration(s), if present.
+[main] [ 2021-03-17 11:28:10.397 IST ] [NetCADeconfig.cleanCMANConfig:4179]  No CMAN services to deconfigure.
+[main] [ 2021-03-17 11:28:10.397 IST ] [NetCADeconfig.cleanConfig:495]  Following Single Instance listener(s) were de-configured successfully: LISTENER
+[main] [ 2021-03-17 11:28:10.397 IST ] [NetCADeconfig.cleanConfig:502]  Network Configuration clean config END

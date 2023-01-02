@@ -1,0 +1,17 @@
+[ 2021-03-03 11:53:26.720 IST ] [WARNING] [DBT-19202] The Database Configuration Assistant will delete the Oracle instances and datafiles for your database. All information in the database will be destroyed.
+[ 2021-03-03 11:53:26.904 IST ] Prepare for db operation
+DBCA_PROGRESS : 32%
+[ 2021-03-03 11:53:26.988 IST ] Connecting to database
+DBCA_PROGRESS : 35%
+DBCA_PROGRESS : 39%
+DBCA_PROGRESS : 42%
+DBCA_PROGRESS : 45%
+DBCA_PROGRESS : 48%
+DBCA_PROGRESS : 52%
+DBCA_PROGRESS : 65%
+[ 2021-03-03 11:56:10.330 IST ] Updating network configuration files
+DBCA_PROGRESS : 68%
+[ 2021-03-03 11:56:10.341 IST ] Deleting instance and datafiles
+DBCA_PROGRESS : 84%
+DBCA_PROGRESS : 100%
+[ 2021-03-03 11:56:13.052 IST ] Database deletion completed.
